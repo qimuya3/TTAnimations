@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,56 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animate.css" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOF-v0-Wjx">
+                                <rect key="frame" x="164" y="28" width="272" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="272" id="QwD-Qm-fOK"/>
+                                    <constraint firstAttribute="height" constant="48" id="XLW-gj-v9g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="textColor" red="0.95294117649999999" green="0.33725490200000002" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hlx-oB-ZUv">
+                                <rect key="frame" x="0.0" y="348" width="600" height="252"/>
+                                <subviews>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AOm-9p-aJE">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="263"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="263" id="Nt9-A9-S9Y"/>
+                                        </constraints>
+                                    </pickerView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92941176470588238" green="0.94509803921568625" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="AOm-9p-aJE" firstAttribute="top" secondItem="hlx-oB-ZUv" secondAttribute="top" id="QEf-q2-BbD"/>
+                                    <constraint firstAttribute="trailing" secondItem="AOm-9p-aJE" secondAttribute="trailing" id="b3o-4u-z3Q"/>
+                                    <constraint firstAttribute="bottom" secondItem="AOm-9p-aJE" secondAttribute="bottom" id="mzI-4i-lmw"/>
+                                    <constraint firstAttribute="trailing" secondItem="AOm-9p-aJE" secondAttribute="trailing" id="r3n-lI-mc6"/>
+                                    <constraint firstAttribute="height" constant="252" id="skb-4M-aW4"/>
+                                    <constraint firstItem="AOm-9p-aJE" firstAttribute="top" secondItem="hlx-oB-ZUv" secondAttribute="top" id="ucg-RC-wa3"/>
+                                    <constraint firstItem="AOm-9p-aJE" firstAttribute="leading" secondItem="hlx-oB-ZUv" secondAttribute="leading" id="yZA-fL-l7Z"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hlx-oB-ZUv" secondAttribute="bottom" id="O6F-av-9ZT"/>
+                            <constraint firstItem="hlx-oB-ZUv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Yp2-aS-5pl"/>
+                            <constraint firstItem="eOF-v0-Wjx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iGD-Cr-ezG"/>
+                            <constraint firstAttribute="trailing" secondItem="hlx-oB-ZUv" secondAttribute="trailing" id="ixg-bh-sg5"/>
+                            <constraint firstItem="eOF-v0-Wjx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="kVF-cW-7Pb"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="animationPicker" destination="AOm-9p-aJE" id="kHX-Wk-k7D"/>
+                        <outlet property="targetLabel" destination="eOF-v0-Wjx" id="054-pv-c6V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="227" y="302"/>
         </scene>
     </scenes>
 </document>

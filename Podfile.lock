@@ -1,1 +1,14 @@
+PODS:
+  - TTAnimations (1.0.0)
+
+DEPENDENCIES:
+  - TTAnimations (from `./`)
+
+EXTERNAL SOURCES:
+  TTAnimations:
+    :path: ./
+
+SPEC CHECKSUMS:
+  TTAnimations: 7934f3f41e2b8c25b589aa6dc1a3bc932fe70734
+
 COCOAPODS: 0.39.0

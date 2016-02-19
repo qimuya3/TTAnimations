@@ -7,6 +7,7 @@
 //
 
 #import "BasicAnimation.h"
+#import "AnimationBuilder.h"
 
 @interface AnimationHelper : BasicAnimation
 

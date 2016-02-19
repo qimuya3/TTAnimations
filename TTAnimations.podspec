@@ -1,14 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "TTAnimations"
-  s.version      = "1.0.0"
   s.license      = "MIT"
-  s.summary      = ""
-  s.homepage     = "http://EXAMPLE/TTAnimations"
+  s.summary      = " An  exquisite collection of animation"
+  s.homepage     = "https://github.com/jiangtiteng/TTAnimations"
   s.author             = { "titeng.jiang" => "624790402@qq.com" }
-  s.public_header_files = "Classes/**/*.h"
   s.requires_arc = true
-  s.dependency "JSONKit", "~> 1.4"
+  s.source   = { :git => "https://github.com/jiangtiteng/TTAnimations"}
+  s.ios.deployment_target = '6.0'
 
   s.public_header_files = 'TTAnimations/*.h'
-  s.source_files = 'TTAnimations/**/*.{h,m}
+  s.source_files = 'TTAnimations/**/*.{h,m,c}'
 end

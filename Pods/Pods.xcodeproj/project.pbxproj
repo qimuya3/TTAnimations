@@ -6,43 +6,717 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		02FE6AF01FCCF7FD0E6B2C71A0B08F3D /* ZoomOutDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE8466DE0333F39294F5273406413E1 /* ZoomOutDownAnimation.m */; };
+		06924A425CDD14DFAF95EC480733D20F /* FadeInRightAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC31192D7D31FDA35698C26DEC79918 /* FadeInRightAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		06FA037B152ACEEBDCD88A713576FFEB /* BounceInLeftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A850B8866FA0E60EA27DA6FF7B50820 /* BounceInLeftAnimation.m */; };
+		075254B70E68B1C4BE729E45D0BFD2EF /* ZoomInDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D20E8F0E7B0070718B49B4482936F /* ZoomInDownAnimation.m */; };
+		09DD22B417547E95ECE5A219671FB5AB /* RollOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A00E5741660BEF30EE23038ECDEE1B5C /* RollOutAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0AD0F5B8EFD9DC4641C4C7E216E5BE0D /* FlipAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B297CB026E63EDAFECF9A1F261671C /* FlipAnimation.m */; };
+		0BE88E1E036E167D6FE2EFE64C02260A /* BounceOutUpAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE994C6C4654481044A98583CA82B2B /* BounceOutUpAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F36ECC87FA440A73963AE37F0DE6493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		114FF353B0A2A10F75CA975D8F26CDA5 /* FadeInLeftBigAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B9B1B18DF80E66F8E9435946B366A3 /* FadeInLeftBigAnimation.m */; };
+		129C9796641FFC9F93CEE652A3BCA8C8 /* ZoomOutUpAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B5AE85D1A602022F3C3F148B8745F /* ZoomOutUpAnimation.m */; };
+		129D747C6CA74DDB4FD22A841090FD1F /* FadeOutUpBigAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E424EC15DC44CFB01E2DCE4FEEF9C8 /* FadeOutUpBigAnimation.m */; };
+		15A1FAB909B68BA686F42E240911DA0B /* BounceOutLeftAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 37913EE8EE5A3F90F2C73E35C9F7C200 /* BounceOutLeftAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16ED3C30DEBA5662965FCE9C2A816444 /* ZoomInDownAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C6352F3A2DAF2B609F2067A7A56D4E5C /* ZoomInDownAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18FA33C1DEFC1ADBB0136BAE27199EAA /* FadeOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA210AF06E4F9803990F3F7AF29F693 /* FadeOutAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1BBF92A1F36F52E9D022604E8C739491 /* ZoomInUpAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C3F5CECA521358D626C3393056A27130 /* ZoomInUpAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DB44E63A425994FA2827783FD777B3B /* FadeInDownAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE3679241C1D493E4CCD59DC607D0BE /* FadeInDownAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F964E92117A4E7691DF8D2E786BFF53 /* FadeInUpBigAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4696805652E8BE335F60A74CFEDC7F /* FadeInUpBigAnimation.m */; };
+		2065184A08CF17FE2927165DA80793FF /* FadeInRightBigAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FB301347D3B8016C0A5BD7E6FA3D34 /* FadeInRightBigAnimation.m */; };
+		234A3EFDEDBDC6CEBBB74FDD5979400C /* SwingAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A18BE94A526B9C0126C17584EA1C0 /* SwingAnimation.m */; };
+		2466304AB731B50A2A2DCA61C532FEDB /* FadeInLeftBigAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9D5499E8487E5E156E248FB9BCAE56 /* FadeInLeftBigAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28005DAAA6FC158A49E5BBF7F08D794C /* ZoomOutUpAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 636CD174C550EC2A202EFB1688C411B8 /* ZoomOutUpAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A148096E20387CA01B284D369D4E8CB /* FadeOutDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ECCC01022061D6E05B97DB39648CD4 /* FadeOutDownAnimation.m */; };
+		2B01476187D36C070372ED9E15B70794 /* FadeInAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 728094CC74A439CD6266BEEDBA8E4CC1 /* FadeInAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2BA929F8D4B779690D7C6C6BF230BB52 /* SwingAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6788E3DFF281C9D972DF187FA5C1C8E0 /* SwingAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DC14B8647586D7303B3BE02184F2EF2 /* BounceInUpAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1331068FDE9562D8E25D7562414F35 /* BounceInUpAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DD18AA654553D5928B1638696476FAD /* FlipInYAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D3739FDE42C3D26631179FE1851DA3 /* FlipInYAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2E61A3F19F7A411BC89E1D662287FE44 /* FadeOutRightAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA10B13943C6BCEF6232D453E679C02 /* FadeOutRightAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2EFD8AAEBFD86DC2EBC688EEA8E0110E /* FlipAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 445A5FC6A757D64FBE7506FAD0DD25E5 /* FlipAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F5B7A2FBB5016BD121C55982A1F0B43 /* FlashAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B264281DB19FCB0999CD15FBA72A6F30 /* FlashAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F794C837AD22DB3417CE5CBC5A8D25B /* ShakeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF7B6F48633051AF116B6198AA34BE9 /* ShakeAnimation.m */; };
+		35B8E2EF637258566CAD0A9C51081EE6 /* TadaAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F87640CFE1535E5DC2EC7629EAE8402 /* TadaAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B3C360E0842548452AF8A2992BD7352 /* BounceOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CF04011DC744781490D027E12BF44E97 /* BounceOutAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41AB6C622F3E04F547CF17DC356B44E9 /* FlipInYAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B399219C3D1ECC681E1B469DE6B5CA84 /* FlipInYAnimation.m */; };
+		45B14E1E1E16EBD0370A3EC311A1D53E /* BounceOutLeftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0343A043B85FB57306185778BB72B8ED /* BounceOutLeftAnimation.m */; };
+		466AB665E6A98B8D98A9F66D181AE495 /* JelloAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB72BA82113CA50C823887C6BB3E262 /* JelloAnimation.m */; };
+		470B8DFC7DD050DCCD4687AB6E62EE2D /* FadeOutRightBigAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B113A8FFB64CFFD04368DACE75C0E1 /* FadeOutRightBigAnimation.m */; };
+		49701A0BDB89B50FB53944751DD0B1FD /* FadeInLeftAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB6C6B690F43B788AE1A5228C546AA8 /* FadeInLeftAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B523A8E6F7BF6CCA1AEDFC88A4445DC /* AnimationBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402128E1155656A8412B87677EB31F9 /* AnimationBuilder.m */; };
+		4C1A8246B014DDABD59C69B525FFE6BE /* RollInAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B67A6C09C317B634AFFB954A2E728A5A /* RollInAnimation.m */; };
+		4C7F7696FFAD99A06F2419EFDA3C1612 /* LightSpeedInAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C77ABB2742DD66A04F4672E5B11C33C6 /* LightSpeedInAnimation.m */; };
+		4D46B81F2839C64CF9ABA9499855C66E /* BounceInAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 15160E317AABC63F1565162A634120A9 /* BounceInAnimation.m */; };
+		4D4F18A3F9D5CD0F834E83D3ADF1F6E4 /* FadeOutUpBigAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3A6BA01B0BA371E0DA1C95DF718371 /* FadeOutUpBigAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E3A3F2B911A1BE75A5461A2AA7F5797 /* BounceInAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4130DB7CD103355F91841B2AA710B910 /* BounceInAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50C74DA387B9F04E75E4350189B3A915 /* ZoomOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBC08C985400C23E294BBC415859BFF /* ZoomOutAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5157D2859D1ABB86B0034832F52E7A4E /* BounceInDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6BD2438C2447291D7A3D9AF4A894E6 /* BounceInDownAnimation.m */; };
+		5196C239D5387C8D56BFC292B3618A54 /* TadaAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C229863A17A71A68432741768145B15 /* TadaAnimation.m */; };
+		5249375EA4158D774CA57E65C989678B /* FadeInDownBigAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A9484A5EEEE4BD71ED7C72B2C1F0C /* FadeInDownBigAnimation.m */; };
+		53E3B95CBF35978D75861F9A4D5044F1 /* BounceOutRightAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5253D49AE4C066467A8D13271006FE /* BounceOutRightAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D3A049EE23632BB055C6A2F59B67C98 /* ZoomInRightAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 006426583DF796DCD7CAED3892AE69D1 /* ZoomInRightAnimation.m */; };
+		634C28437A1D53C6ADCC9CE68EA5BDCE /* ZoomOutRightAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E03A9F11CAFD97D7CC00A924DF25AB22 /* ZoomOutRightAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6459483C210B50863DB05440F5C854BC /* ShakeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED1C53BBE667997F82D641904C9FE73 /* ShakeAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		67F850C3CFB874658B2D7902247F2502 /* WobbleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0357FD02859F741411C13393B4B5AC /* WobbleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6865170037970F34744798BD6358F326 /* ZoomOutLeftAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 79AC07982CD04E9728815EE1D3145A1C /* ZoomOutLeftAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D8566613666F73C6A8E4648AB1CB6D6 /* Pods-TTAnimationsExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F442CBBF7667112989BF3ECF42A19C1 /* Pods-TTAnimationsExample-dummy.m */; };
+		704545E90C91F670ED371EBEA0CDE64D /* ZoomOutRightAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD0F460642F673BDB25C316FA89566B /* ZoomOutRightAnimation.m */; };
+		707E7B41B6A817DD4B85A8F55C4F3DA9 /* WobbleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F03AE23D1FF361EBFFF433BBCFCD81 /* WobbleAnimation.m */; };
+		76C98DDEA1E52205267A27FA90ED4A8F /* ZoomInAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F1FFD59896B7FB7DD9771A1C4D8BA4 /* ZoomInAnimation.m */; };
+		7BC9A7431E6C28FF0BECA58CAE6E369B /* BounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A99D0B756B635F10085186CBA323A1E /* BounceAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D47569DB508758BAE2D004C08D5AFE5 /* BounceInDownAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C2EC3F698DEA774D8CCBEB89ADA9683F /* BounceInDownAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		805EB5A02B87EA590B380712BC525BAB /* FadeOutLeftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A763BA962B19BDF90916F2CA09CAFF70 /* FadeOutLeftAnimation.m */; };
+		81D625507245F616617390E268A0C235 /* RubberBandAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF9DD44A76A2198299D89E83D9B8F53 /* RubberBandAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		820CE8744C87E3860C85892BF2B8D452 /* BounceInLeftAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D71425912B1775F2B2616EDD6DB6762 /* BounceInLeftAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		83E96AE2B3D6A31214CBDE12980CC0F7 /* FadeOutRightAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A439B64B05C8A4F57818107AC97F5A29 /* FadeOutRightAnimation.m */; };
+		851C3655678FEEFC2DA46B39A694C77A /* FlipOutXAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B9587D247E74BEFB93376AD5BA5710 /* FlipOutXAnimation.m */; };
+		862C14B0F91268566AF0A3A5C1CC79E9 /* LightSpeedOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A514E041041D65BFD2ABC9A73CEF37 /* LightSpeedOutAnimation.m */; };
+		88A0BCCE0264426DEBBF6431A7DE81AD /* ZoomOutDownAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 172F1C19B9AE705AC274C64563267F08 /* ZoomOutDownAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89A649A1295F0DBD7D03823508535DDE /* FadeOutLeftBigAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8BCA6CC7E7A102719D5377A81507D8 /* FadeOutLeftBigAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BE9E67F8482D0B24CE7BA522AB3205F /* LightSpeedInAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BA1E8E6C73F06CBE82AE260B2E1E2BAB /* LightSpeedInAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CDBC87E3854676C489B4F47235B9D70 /* BounceOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D79D0702F26642B96AEF0C5E86BE1D /* BounceOutAnimation.m */; };
+		9214DF511E9230C47A309FA857069FF4 /* FadeOutDownBigAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DC2297CAF776855CCA5820FA6311B /* FadeOutDownBigAnimation.m */; };
+		9410E09F2F3D75BF495EB6F6CDBB7490 /* FlipOutXAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CED6ADF70E8BB58A3F64BFFABD2A17AA /* FlipOutXAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94457E80450F74A37B20531C584573F9 /* BasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6999F9E219A3537EA50EE43C9AA923EF /* BasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		951F739E43619FC9E053BDC268022E37 /* BounceInRightAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550A735BFED246361921BEDD890E570 /* BounceInRightAnimation.m */; };
+		95564D63D268C70B8D875A5CDBAF2070 /* FlipOutYAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 454871BCC3ECBDAB7EC58B18034A8DEE /* FlipOutYAnimation.m */; };
+		98B7EE9BB4A65C47362CF43E17D8575C /* HingeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BED40F592E439C7920E988BFB7A67861 /* HingeAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F2078B1F4359443A1839CBDC1464837 /* FadeOutLeftBigAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A45537815D329C0DE5C6A43F3184334 /* FadeOutLeftBigAnimation.m */; };
+		A43449CF31F809E99728AC751E147CAB /* AnimationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9190AC2E5AB093B05C1BCEE4AD81C9 /* AnimationHelper.m */; };
+		A4A166133A7F71B15401D158A243BB49 /* ZoomInLeftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F321F5935134BF606DA39397B3F7BD /* ZoomInLeftAnimation.m */; };
+		A70B796B32222F3D630CCEC1840BBE01 /* HingeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 094064B8FD3D19F1F96630612B48BFF0 /* HingeAnimation.m */; };
+		A7218D215C40ED33406D46DECA84BAC4 /* ZoomInAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B01B6B2BAB22D548A58E9196C864EAB7 /* ZoomInAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8B4E2F13711DEDFCBD28BAE15958880 /* FadeOutRightBigAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB3E44B94116E377CA9B6F7228E8DF0 /* FadeOutRightBigAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AAD002F2BA05E8C28F11D1B86B248B88 /* FadeInDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 307748D94A77B8112465712A950C36D3 /* FadeInDownAnimation.m */; };
+		AD1B18D6DE0173141C5069D961D0C00A /* FadeOutUpAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF60B790D7CC0625D8CCE77288447477 /* FadeOutUpAnimation.m */; };
+		AF10E67FB6F2A6B0F6163DBD19ECA00A /* FadeInUpAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D464FC02B5C38E0FC0D863DB0E68ED6B /* FadeInUpAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B30C56578AEF6381727B136985FC0532 /* ZoomInUpAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DC0A7A7D7906CD898BD7E342680A3B /* ZoomInUpAnimation.m */; };
+		B3D7D3DB28AD90FD0C69EF4C10986901 /* FlashAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2FD5C7C954E5B04130377B346B63A /* FlashAnimation.m */; };
+		B5C9DB2FE55CCB4813E17D002A2D0377 /* FlipInXAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A8B7D5B39BDF23EBED5C28B5C68C107 /* FlipInXAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B844D2B641BA240C8061EC18F750F3AB /* PulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 647920C72DAE588D6750A47A2C8F79B7 /* PulseAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA15CB69850F1419D75FA806F6496E42 /* FadeInUpBigAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 76772C391433E05C173A4A9E43C716D0 /* FadeInUpBigAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA5D3BD58630DD9D651963F91971DE8C /* AnimationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB59A1E69EFB1A22B14761A4CB4A504 /* AnimationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDF59241BE1EB6EB30873A6553FB7B7A /* AnimationParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 50DEDE79AA4DA84FEBFB3CF9CCE73FF9 /* AnimationParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE48AA0E974B55CEC8934598B085D6A2 /* TTAnimations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 755281CA6D0E76585427385270F72E99 /* TTAnimations-dummy.m */; };
+		C23773FE81B8436318620B85D1381594 /* FadeOutLeftAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE20FC72B3595A4D920222EE742CFF5 /* FadeOutLeftAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2893B34719D41F90179AC328C575148 /* CATransform3DExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 636A00235C61D63CBE4A70D4A10624A4 /* CATransform3DExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C45C25B0C553B3878BE29BB5F3BEC54E /* RubberBandAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9D4F12D937D32F896CC009D8C747A /* RubberBandAnimation.m */; };
+		C5DF64DDC14CFB3F1116542A37FDE158 /* BounceOutRightAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DF81B7E700B3FC1DCA8B2182757D6135 /* BounceOutRightAnimation.m */; };
+		C61BDA4CE67313A03DE58CDF8B36138B /* JelloAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C41A7B04D17F17511A4EDE33F4CDC5 /* JelloAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7BF5267716F4467C76E05D474201A71 /* BounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2542A68FA66A2C3546BB0AAF44C04C /* BounceAnimation.m */; };
+		CD215858D1BF9168AD8868841A564C2B /* PulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D034E8C3612BD206BF46FD3F22021072 /* PulseAnimation.m */; };
+		CE6334AA02D4812DFE4F1C89668159DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D105CE94FC10FE1996961B6B26C341CF /* BounceOutUpAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3AC0D6F1C0CA9D42DB77A60C59024A /* BounceOutUpAnimation.m */; };
+		D1DE5E2E1A6A8A2CB9FCC43DAF41BE24 /* FadeOutDownAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC81ACAA9AD0DC0B24BAF24E603A072 /* FadeOutDownAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D40DF1D1CECB14E0508B2B142F20D00B /* FadeInDownBigAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B04A5E32C5F85DEFFA56B6BA3B77CE /* FadeInDownBigAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D546EE985836A34FF6EA357BCC49EEE9 /* RollInAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B726BB41A2A16398B18A8768D66C5D /* RollInAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D57F7127D0D86F781DBC6A965E19336C /* BasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 753EEE6311BA36D991842E0DC481A3FE /* BasicAnimation.m */; };
+		D7D88F5F33420B86A5E2F9C11308DA36 /* FlipOutYAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 186C3A2FC2CBB07E57E2E82868F4A844 /* FlipOutYAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D904AC342C78BC48577AECC4E3919D24 /* FadeOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BA68234B9C3B2ED6DA95B4FE265DDF /* FadeOutAnimation.m */; };
+		D9C00B7223E8836820ADC67884682DC6 /* BounceInUpAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 775032E6718D7FEAE213F2A0FB9439ED /* BounceInUpAnimation.m */; };
+		DAD86638D154D6226EFC76DF735DA48B /* FadeOutUpAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 14BB65E367F16B53E291C022A884C41F /* FadeOutUpAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB5A95DD9D2E5257DD5A6971B7D0709D /* BounceInRightAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2088A03AA25FFF27E19B075CF0DBFB7A /* BounceInRightAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC603F2D52DFE7016970B5D61F36D0C6 /* CATransform3DExtend.c in Sources */ = {isa = PBXBuildFile; fileRef = 71A898D95ACD53F7FBC6BA135F976942 /* CATransform3DExtend.c */; };
+		DCA3C90F8609C91D3C799C1AE8728CC7 /* ZoomOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA3D0C24924B405C8CC7B3315E692B1 /* ZoomOutAnimation.m */; };
+		DDE8C9F0D6D53A32F8BC56FEF31D1F24 /* ZoomOutLeftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC2C7A19D38AE6924638575959A567E /* ZoomOutLeftAnimation.m */; };
+		E0D8174197EE62BBB61A4ADDAD595757 /* ZoomInRightAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 863FFDD8B0799F98C284138E4C8B2D48 /* ZoomInRightAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3850254A511309D4D3C0B12D545DE05 /* FadeInRightBigAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E995C2FCD2D73438FD8A04B9348540D /* FadeInRightBigAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3E943F5E9BCDAFA880CC5EA9E6F4FA4 /* FadeInAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 042785A282E0804E9F4A2241DB58A15D /* FadeInAnimation.m */; };
+		E4AA7BAF766794F55654647203BFBBD7 /* AnimationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5EDB8A2D708F886CA86CF19E3A50E3 /* AnimationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E845AF7395694DB84E9112A3FE504EC2 /* BounceOutDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C004FC3FF02A9A59AF87D149428993 /* BounceOutDownAnimation.m */; };
+		EAAA906EA11E6A4C46CBC92E1620ED5A /* BounceOutDownAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BE909A2972DC0F41C78145C5EC9F89B4 /* BounceOutDownAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAD05F7353FA481DE2C4B38F02B8C7E0 /* AnimationParams.m in Sources */ = {isa = PBXBuildFile; fileRef = E60A850AF2F798C056DD79300484CE6E /* AnimationParams.m */; };
+		EEED035E091FE15F7DB02DFB0F15E8FC /* ZoomInLeftAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B6997FAAF7BAC9F567CCABE5EEC9C2AF /* ZoomInLeftAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5DF790EDC9C41BF0F7FC30996EC379B /* FadeInLeftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A8FE71FD595A6CDDD9B4C6B427B09 /* FadeInLeftAnimation.m */; };
+		F6C5C77F51E480ABFAA70FA5A925EEAD /* FlipInXAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F59AB1D8CA73A4405216349DE9D4D13B /* FlipInXAnimation.m */; };
+		F702EACDFD129543CD2F8075A14F526F /* LightSpeedOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C63D0C48585B2F12DED0DE79CDB762E /* LightSpeedOutAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F9F9869012868F6C7DB9D25A74AF86D0 /* FadeOutDownBigAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 930DEFC12473D782F95F134E69FC8CFD /* FadeOutDownBigAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA0ED0F9E7234226A404D61E6121898F /* FadeInRightAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD4AD4EB57D9474814B3D9DED9E6044 /* FadeInRightAnimation.m */; };
+		FB7916AC857CB9E2AB3E9A36062E6996 /* FadeInUpAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E39BC8BFEC73443AFBB405F4E764F1C /* FadeInUpAnimation.m */; };
+		FCB8DB754B1FC9DFAAFDC726EC58CF84 /* RollOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FC56A8FB9A04E39328720B926159092C /* RollOutAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FEC690E9D7EBBC2403F45B04A54DA51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D83CAC69BE7DD6B98CBEF7E0184D4586;
+			remoteInfo = TTAnimations;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		006426583DF796DCD7CAED3892AE69D1 /* ZoomInRightAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZoomInRightAnimation.m; sourceTree = "<group>"; };
+		0343A043B85FB57306185778BB72B8ED /* BounceOutLeftAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BounceOutLeftAnimation.m; sourceTree = "<group>"; };
+		042785A282E0804E9F4A2241DB58A15D /* FadeInAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeInAnimation.m; sourceTree = "<group>"; };
+		04B40E50E45491C55E7C30579FFE1A75 /* Pods-TTAnimationsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTAnimationsExample.release.xcconfig"; sourceTree = "<group>"; };
+		094064B8FD3D19F1F96630612B48BFF0 /* HingeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HingeAnimation.m; sourceTree = "<group>"; };
+		09F321F5935134BF606DA39397B3F7BD /* ZoomInLeftAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZoomInLeftAnimation.m; sourceTree = "<group>"; };
+		0C63D0C48585B2F12DED0DE79CDB762E /* LightSpeedOutAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightSpeedOutAnimation.h; sourceTree = "<group>"; };
+		0E39BC8BFEC73443AFBB405F4E764F1C /* FadeInUpAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeInUpAnimation.m; sourceTree = "<group>"; };
+		0ED1C53BBE667997F82D641904C9FE73 /* ShakeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShakeAnimation.h; sourceTree = "<group>"; };
+		14BB65E367F16B53E291C022A884C41F /* FadeOutUpAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeOutUpAnimation.h; sourceTree = "<group>"; };
+		15160E317AABC63F1565162A634120A9 /* BounceInAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BounceInAnimation.m; sourceTree = "<group>"; };
+		1535672C8185589A387B9D0334ED14C6 /* libPods-TTAnimationsExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTAnimationsExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D3739FDE42C3D26631179FE1851DA3 /* FlipInYAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FlipInYAnimation.h; sourceTree = "<group>"; };
+		172F1C19B9AE705AC274C64563267F08 /* ZoomOutDownAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoomOutDownAnimation.h; sourceTree = "<group>"; };
+		186C3A2FC2CBB07E57E2E82868F4A844 /* FlipOutYAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FlipOutYAnimation.h; sourceTree = "<group>"; };
+		19F03AE23D1FF361EBFFF433BBCFCD81 /* WobbleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WobbleAnimation.m; sourceTree = "<group>"; };
+		1A68EB50A40CBB7385F7B95756CCE0C8 /* Pods-TTAnimationsExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTAnimationsExample-frameworks.sh"; sourceTree = "<group>"; };
+		1D9190AC2E5AB093B05C1BCEE4AD81C9 /* AnimationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AnimationHelper.m; sourceTree = "<group>"; };
+		1E995C2FCD2D73438FD8A04B9348540D /* FadeInRightBigAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeInRightBigAnimation.h; sourceTree = "<group>"; };
+		2088A03AA25FFF27E19B075CF0DBFB7A /* BounceInRightAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BounceInRightAnimation.h; sourceTree = "<group>"; };
+		26C004FC3FF02A9A59AF87D149428993 /* BounceOutDownAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BounceOutDownAnimation.m; sourceTree = "<group>"; };
+		286D20E8F0E7B0070718B49B4482936F /* ZoomInDownAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZoomInDownAnimation.m; sourceTree = "<group>"; };
+		28B9B1B18DF80E66F8E9435946B366A3 /* FadeInLeftBigAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeInLeftBigAnimation.m; sourceTree = "<group>"; };
+		2A8B7D5B39BDF23EBED5C28B5C68C107 /* FlipInXAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FlipInXAnimation.h; sourceTree = "<group>"; };
+		2B1331068FDE9562D8E25D7562414F35 /* BounceInUpAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BounceInUpAnimation.h; sourceTree = "<group>"; };
+		2DA3D0C24924B405C8CC7B3315E692B1 /* ZoomOutAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZoomOutAnimation.m; sourceTree = "<group>"; };
+		2F3A6BA01B0BA371E0DA1C95DF718371 /* FadeOutUpBigAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeOutUpBigAnimation.h; sourceTree = "<group>"; };
+		2F442CBBF7667112989BF3ECF42A19C1 /* Pods-TTAnimationsExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTAnimationsExample-dummy.m"; sourceTree = "<group>"; };
+		307748D94A77B8112465712A950C36D3 /* FadeInDownAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeInDownAnimation.m; sourceTree = "<group>"; };
+		323DC2297CAF776855CCA5820FA6311B /* FadeOutDownBigAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeOutDownBigAnimation.m; sourceTree = "<group>"; };
+		34D79D0702F26642B96AEF0C5E86BE1D /* BounceOutAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BounceOutAnimation.m; sourceTree = "<group>"; };
+		37913EE8EE5A3F90F2C73E35C9F7C200 /* BounceOutLeftAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BounceOutLeftAnimation.h; sourceTree = "<group>"; };
+		39A514E041041D65BFD2ABC9A73CEF37 /* LightSpeedOutAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightSpeedOutAnimation.m; sourceTree = "<group>"; };
+		3DB59A1E69EFB1A22B14761A4CB4A504 /* AnimationBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AnimationBuilder.h; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E9D5499E8487E5E156E248FB9BCAE56 /* FadeInLeftBigAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeInLeftBigAnimation.h; sourceTree = "<group>"; };
+		4130DB7CD103355F91841B2AA710B910 /* BounceInAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BounceInAnimation.h; sourceTree = "<group>"; };
+		445A5FC6A757D64FBE7506FAD0DD25E5 /* FlipAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FlipAnimation.h; sourceTree = "<group>"; };
+		454871BCC3ECBDAB7EC58B18034A8DEE /* FlipOutYAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FlipOutYAnimation.m; sourceTree = "<group>"; };
+		45DC0A7A7D7906CD898BD7E342680A3B /* ZoomInUpAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZoomInUpAnimation.m; sourceTree = "<group>"; };
+		472CA47C1BA5027A266903EF2FBAA399 /* libTTAnimations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTTAnimations.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB3E44B94116E377CA9B6F7228E8DF0 /* FadeOutRightBigAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeOutRightBigAnimation.h; sourceTree = "<group>"; };
+		4C0357FD02859F741411C13393B4B5AC /* WobbleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WobbleAnimation.h; sourceTree = "<group>"; };
+		4CBC08C985400C23E294BBC415859BFF /* ZoomOutAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoomOutAnimation.h; sourceTree = "<group>"; };
+		4D4696805652E8BE335F60A74CFEDC7F /* FadeInUpBigAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeInUpBigAnimation.m; sourceTree = "<group>"; };
+		50DEDE79AA4DA84FEBFB3CF9CCE73FF9 /* AnimationParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AnimationParams.h; sourceTree = "<group>"; };
+		5402128E1155656A8412B87677EB31F9 /* AnimationBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AnimationBuilder.m; sourceTree = "<group>"; };
+		564A9484A5EEEE4BD71ED7C72B2C1F0C /* FadeInDownBigAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeInDownBigAnimation.m; sourceTree = "<group>"; };
+		5A7C4FAD4FA99160957B2FC1C39F3F94 /* Pods-TTAnimationsExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTAnimationsExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BB6C6B690F43B788AE1A5228C546AA8 /* FadeInLeftAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeInLeftAnimation.h; sourceTree = "<group>"; };
+		5EC62B325C94C3EBA97F770B59DC7ED4 /* Pods-TTAnimationsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTAnimationsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		636A00235C61D63CBE4A70D4A10624A4 /* CATransform3DExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CATransform3DExtend.h; sourceTree = "<group>"; };
+		636CD174C550EC2A202EFB1688C411B8 /* ZoomOutUpAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoomOutUpAnimation.h; sourceTree = "<group>"; };
+		647920C72DAE588D6750A47A2C8F79B7 /* PulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PulseAnimation.h; sourceTree = "<group>"; };
+		6788E3DFF281C9D972DF187FA5C1C8E0 /* SwingAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwingAnimation.h; sourceTree = "<group>"; };
+		68ECCC01022061D6E05B97DB39648CD4 /* FadeOutDownAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeOutDownAnimation.m; sourceTree = "<group>"; };
+		6999F9E219A3537EA50EE43C9AA923EF /* BasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BasicAnimation.h; sourceTree = "<group>"; };
+		6A45537815D329C0DE5C6A43F3184334 /* FadeOutLeftBigAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeOutLeftBigAnimation.m; sourceTree = "<group>"; };
+		6D39BF0E356476ADAB37599692651729 /* Pods-TTAnimationsExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTAnimationsExample-resources.sh"; sourceTree = "<group>"; };
+		6FE9D4F12D937D32F896CC009D8C747A /* RubberBandAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RubberBandAnimation.m; sourceTree = "<group>"; };
+		70C41A7B04D17F17511A4EDE33F4CDC5 /* JelloAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JelloAnimation.h; sourceTree = "<group>"; };
+		718B5AE85D1A602022F3C3F148B8745F /* ZoomOutUpAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZoomOutUpAnimation.m; sourceTree = "<group>"; };
+		71A898D95ACD53F7FBC6BA135F976942 /* CATransform3DExtend.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = CATransform3DExtend.c; sourceTree = "<group>"; };
+		728094CC74A439CD6266BEEDBA8E4CC1 /* FadeInAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeInAnimation.h; sourceTree = "<group>"; };
+		74F1FFD59896B7FB7DD9771A1C4D8BA4 /* ZoomInAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZoomInAnimation.m; sourceTree = "<group>"; };
+		753EEE6311BA36D991842E0DC481A3FE /* BasicAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BasicAnimation.m; sourceTree = "<group>"; };
+		755281CA6D0E76585427385270F72E99 /* TTAnimations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTAnimations-dummy.m"; sourceTree = "<group>"; };
+		75B726BB41A2A16398B18A8768D66C5D /* RollInAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RollInAnimation.h; sourceTree = "<group>"; };
+		76772C391433E05C173A4A9E43C716D0 /* FadeInUpBigAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeInUpBigAnimation.h; sourceTree = "<group>"; };
+		775032E6718D7FEAE213F2A0FB9439ED /* BounceInUpAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BounceInUpAnimation.m; sourceTree = "<group>"; };
+		77FB301347D3B8016C0A5BD7E6FA3D34 /* FadeInRightBigAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeInRightBigAnimation.m; sourceTree = "<group>"; };
+		78B113A8FFB64CFFD04368DACE75C0E1 /* FadeOutRightBigAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeOutRightBigAnimation.m; sourceTree = "<group>"; };
+		79AC07982CD04E9728815EE1D3145A1C /* ZoomOutLeftAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoomOutLeftAnimation.h; sourceTree = "<group>"; };
+		7A850B8866FA0E60EA27DA6FF7B50820 /* BounceInLeftAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BounceInLeftAnimation.m; sourceTree = "<group>"; };
+		7B2542A68FA66A2C3546BB0AAF44C04C /* BounceAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BounceAnimation.m; sourceTree = "<group>"; };
+		7C229863A17A71A68432741768145B15 /* TadaAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TadaAnimation.m; sourceTree = "<group>"; };
+		81B297CB026E63EDAFECF9A1F261671C /* FlipAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FlipAnimation.m; sourceTree = "<group>"; };
+		84C2FD5C7C954E5B04130377B346B63A /* FlashAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FlashAnimation.m; sourceTree = "<group>"; };
+		8550A735BFED246361921BEDD890E570 /* BounceInRightAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BounceInRightAnimation.m; sourceTree = "<group>"; };
+		863FFDD8B0799F98C284138E4C8B2D48 /* ZoomInRightAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoomInRightAnimation.h; sourceTree = "<group>"; };
+		8BE8466DE0333F39294F5273406413E1 /* ZoomOutDownAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZoomOutDownAnimation.m; sourceTree = "<group>"; };
+		8DF7B6F48633051AF116B6198AA34BE9 /* ShakeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShakeAnimation.m; sourceTree = "<group>"; };
+		8F87640CFE1535E5DC2EC7629EAE8402 /* TadaAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TadaAnimation.h; sourceTree = "<group>"; };
+		8FE3679241C1D493E4CCD59DC607D0BE /* FadeInDownAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeInDownAnimation.h; sourceTree = "<group>"; };
+		930DEFC12473D782F95F134E69FC8CFD /* FadeOutDownBigAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeOutDownBigAnimation.h; sourceTree = "<group>"; };
+		95EAD2A32F4226E5E3B4998C7E51EB1E /* Pods-TTAnimationsExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTAnimationsExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A99D0B756B635F10085186CBA323A1E /* BounceAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BounceAnimation.h; sourceTree = "<group>"; };
+		9BA210AF06E4F9803990F3F7AF29F693 /* FadeOutAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeOutAnimation.h; sourceTree = "<group>"; };
+		9BE994C6C4654481044A98583CA82B2B /* BounceOutUpAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BounceOutUpAnimation.h; sourceTree = "<group>"; };
+		9D71425912B1775F2B2616EDD6DB6762 /* BounceInLeftAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BounceInLeftAnimation.h; sourceTree = "<group>"; };
+		9E3AC0D6F1C0CA9D42DB77A60C59024A /* BounceOutUpAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BounceOutUpAnimation.m; sourceTree = "<group>"; };
+		9EECA1DDE653D65F835B6F2212346A3D /* TTAnimations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTAnimations-prefix.pch"; sourceTree = "<group>"; };
+		9F6A18BE94A526B9C0126C17584EA1C0 /* SwingAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwingAnimation.m; sourceTree = "<group>"; };
+		A00E5741660BEF30EE23038ECDEE1B5C /* RollOutAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RollOutAnimation.h; sourceTree = "<group>"; };
+		A439B64B05C8A4F57818107AC97F5A29 /* FadeOutRightAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeOutRightAnimation.m; sourceTree = "<group>"; };
+		A763BA962B19BDF90916F2CA09CAFF70 /* FadeOutLeftAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeOutLeftAnimation.m; sourceTree = "<group>"; };
+		AAD4AD4EB57D9474814B3D9DED9E6044 /* FadeInRightAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeInRightAnimation.m; sourceTree = "<group>"; };
+		AB5253D49AE4C066467A8D13271006FE /* BounceOutRightAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BounceOutRightAnimation.h; sourceTree = "<group>"; };
+		ACD0F460642F673BDB25C316FA89566B /* ZoomOutRightAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZoomOutRightAnimation.m; sourceTree = "<group>"; };
+		B01B6B2BAB22D548A58E9196C864EAB7 /* ZoomInAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoomInAnimation.h; sourceTree = "<group>"; };
+		B264281DB19FCB0999CD15FBA72A6F30 /* FlashAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FlashAnimation.h; sourceTree = "<group>"; };
+		B399219C3D1ECC681E1B469DE6B5CA84 /* FlipInYAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FlipInYAnimation.m; sourceTree = "<group>"; };
+		B67A6C09C317B634AFFB954A2E728A5A /* RollInAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RollInAnimation.m; sourceTree = "<group>"; };
+		B6997FAAF7BAC9F567CCABE5EEC9C2AF /* ZoomInLeftAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoomInLeftAnimation.h; sourceTree = "<group>"; };
+		B9B04A5E32C5F85DEFFA56B6BA3B77CE /* FadeInDownBigAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeInDownBigAnimation.h; sourceTree = "<group>"; };
+		BA1E8E6C73F06CBE82AE260B2E1E2BAB /* LightSpeedInAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightSpeedInAnimation.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBC31192D7D31FDA35698C26DEC79918 /* FadeInRightAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeInRightAnimation.h; sourceTree = "<group>"; };
+		BE909A2972DC0F41C78145C5EC9F89B4 /* BounceOutDownAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BounceOutDownAnimation.h; sourceTree = "<group>"; };
+		BEC2C7A19D38AE6924638575959A567E /* ZoomOutLeftAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZoomOutLeftAnimation.m; sourceTree = "<group>"; };
+		BED40F592E439C7920E988BFB7A67861 /* HingeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HingeAnimation.h; sourceTree = "<group>"; };
+		BF60B790D7CC0625D8CCE77288447477 /* FadeOutUpAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeOutUpAnimation.m; sourceTree = "<group>"; };
+		C2EC3F698DEA774D8CCBEB89ADA9683F /* BounceInDownAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BounceInDownAnimation.h; sourceTree = "<group>"; };
+		C3F5CECA521358D626C3393056A27130 /* ZoomInUpAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoomInUpAnimation.h; sourceTree = "<group>"; };
+		C6352F3A2DAF2B609F2067A7A56D4E5C /* ZoomInDownAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoomInDownAnimation.h; sourceTree = "<group>"; };
+		C77ABB2742DD66A04F4672E5B11C33C6 /* LightSpeedInAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightSpeedInAnimation.m; sourceTree = "<group>"; };
+		CB8BCA6CC7E7A102719D5377A81507D8 /* FadeOutLeftBigAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeOutLeftBigAnimation.h; sourceTree = "<group>"; };
+		CED6ADF70E8BB58A3F64BFFABD2A17AA /* FlipOutXAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FlipOutXAnimation.h; sourceTree = "<group>"; };
+		CF04011DC744781490D027E12BF44E97 /* BounceOutAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BounceOutAnimation.h; sourceTree = "<group>"; };
+		CF6BD2438C2447291D7A3D9AF4A894E6 /* BounceInDownAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BounceInDownAnimation.m; sourceTree = "<group>"; };
+		D034E8C3612BD206BF46FD3F22021072 /* PulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PulseAnimation.m; sourceTree = "<group>"; };
+		D464FC02B5C38E0FC0D863DB0E68ED6B /* FadeInUpAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeInUpAnimation.h; sourceTree = "<group>"; };
+		DEB72BA82113CA50C823887C6BB3E262 /* JelloAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JelloAnimation.m; sourceTree = "<group>"; };
+		DF81B7E700B3FC1DCA8B2182757D6135 /* BounceOutRightAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BounceOutRightAnimation.m; sourceTree = "<group>"; };
+		E03A9F11CAFD97D7CC00A924DF25AB22 /* ZoomOutRightAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoomOutRightAnimation.h; sourceTree = "<group>"; };
+		E0B9587D247E74BEFB93376AD5BA5710 /* FlipOutXAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FlipOutXAnimation.m; sourceTree = "<group>"; };
+		E60A850AF2F798C056DD79300484CE6E /* AnimationParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AnimationParams.m; sourceTree = "<group>"; };
+		E8E424EC15DC44CFB01E2DCE4FEEF9C8 /* FadeOutUpBigAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeOutUpBigAnimation.m; sourceTree = "<group>"; };
+		EEC81ACAA9AD0DC0B24BAF24E603A072 /* FadeOutDownAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeOutDownAnimation.h; sourceTree = "<group>"; };
+		EF5EDB8A2D708F886CA86CF19E3A50E3 /* AnimationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AnimationHelper.h; sourceTree = "<group>"; };
+		F1BA68234B9C3B2ED6DA95B4FE265DDF /* FadeOutAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeOutAnimation.m; sourceTree = "<group>"; };
+		F59AB1D8CA73A4405216349DE9D4D13B /* FlipInXAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FlipInXAnimation.m; sourceTree = "<group>"; };
+		FC56A8FB9A04E39328720B926159092C /* RollOutAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RollOutAnimation.m; sourceTree = "<group>"; };
+		FCE20FC72B3595A4D920222EE742CFF5 /* FadeOutLeftAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeOutLeftAnimation.h; sourceTree = "<group>"; };
+		FD1A8FE71FD595A6CDDD9B4C6B427B09 /* FadeInLeftAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FadeInLeftAnimation.m; sourceTree = "<group>"; };
+		FDA10B13943C6BCEF6232D453E679C02 /* FadeOutRightAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeOutRightAnimation.h; sourceTree = "<group>"; };
+		FEF9DD44A76A2198299D89E83D9B8F53 /* RubberBandAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RubberBandAnimation.h; sourceTree = "<group>"; };
+		FF86567B2E66D0A74612C60C3B14DCB1 /* TTAnimations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTAnimations.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		36171914B6513392B44E4861644A9876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6334AA02D4812DFE4F1C89668159DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1FC3B6A8DDB7154A16DA4ECC3BDA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F36ECC87FA440A73963AE37F0DE6493 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
-		09C5E90726D2521A760312DBF50D9358 /* Products */ = {
+		0AA8198B5A531FF186BB74FE8C6C944A /* lightspeed */ = {
 			isa = PBXGroup;
 			children = (
+				BA1E8E6C73F06CBE82AE260B2E1E2BAB /* LightSpeedInAnimation.h */,
+				C77ABB2742DD66A04F4672E5B11C33C6 /* LightSpeedInAnimation.m */,
+				0C63D0C48585B2F12DED0DE79CDB762E /* LightSpeedOutAnimation.h */,
+				39A514E041041D65BFD2ABC9A73CEF37 /* LightSpeedOutAnimation.m */,
+			);
+			path = lightspeed;
+			sourceTree = "<group>";
+		};
+		17CA14D8EA4E4F547813B6F6C95F33CF /* zooming_exits */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC08C985400C23E294BBC415859BFF /* ZoomOutAnimation.h */,
+				2DA3D0C24924B405C8CC7B3315E692B1 /* ZoomOutAnimation.m */,
+				172F1C19B9AE705AC274C64563267F08 /* ZoomOutDownAnimation.h */,
+				8BE8466DE0333F39294F5273406413E1 /* ZoomOutDownAnimation.m */,
+				79AC07982CD04E9728815EE1D3145A1C /* ZoomOutLeftAnimation.h */,
+				BEC2C7A19D38AE6924638575959A567E /* ZoomOutLeftAnimation.m */,
+				E03A9F11CAFD97D7CC00A924DF25AB22 /* ZoomOutRightAnimation.h */,
+				ACD0F460642F673BDB25C316FA89566B /* ZoomOutRightAnimation.m */,
+				636CD174C550EC2A202EFB1688C411B8 /* ZoomOutUpAnimation.h */,
+				718B5AE85D1A602022F3C3F148B8745F /* ZoomOutUpAnimation.m */,
+			);
+			path = zooming_exits;
+			sourceTree = "<group>";
+		};
+		18AC3D3FDB5CA3C316AFBC77C7A372A9 /* fading_exits */ = {
+			isa = PBXGroup;
+			children = (
+				9BA210AF06E4F9803990F3F7AF29F693 /* FadeOutAnimation.h */,
+				F1BA68234B9C3B2ED6DA95B4FE265DDF /* FadeOutAnimation.m */,
+				EEC81ACAA9AD0DC0B24BAF24E603A072 /* FadeOutDownAnimation.h */,
+				68ECCC01022061D6E05B97DB39648CD4 /* FadeOutDownAnimation.m */,
+				930DEFC12473D782F95F134E69FC8CFD /* FadeOutDownBigAnimation.h */,
+				323DC2297CAF776855CCA5820FA6311B /* FadeOutDownBigAnimation.m */,
+				FCE20FC72B3595A4D920222EE742CFF5 /* FadeOutLeftAnimation.h */,
+				A763BA962B19BDF90916F2CA09CAFF70 /* FadeOutLeftAnimation.m */,
+				CB8BCA6CC7E7A102719D5377A81507D8 /* FadeOutLeftBigAnimation.h */,
+				6A45537815D329C0DE5C6A43F3184334 /* FadeOutLeftBigAnimation.m */,
+				FDA10B13943C6BCEF6232D453E679C02 /* FadeOutRightAnimation.h */,
+				A439B64B05C8A4F57818107AC97F5A29 /* FadeOutRightAnimation.m */,
+				4BB3E44B94116E377CA9B6F7228E8DF0 /* FadeOutRightBigAnimation.h */,
+				78B113A8FFB64CFFD04368DACE75C0E1 /* FadeOutRightBigAnimation.m */,
+				14BB65E367F16B53E291C022A884C41F /* FadeOutUpAnimation.h */,
+				BF60B790D7CC0625D8CCE77288447477 /* FadeOutUpAnimation.m */,
+				2F3A6BA01B0BA371E0DA1C95DF718371 /* FadeOutUpBigAnimation.h */,
+				E8E424EC15DC44CFB01E2DCE4FEEF9C8 /* FadeOutUpBigAnimation.m */,
+			);
+			path = fading_exits;
+			sourceTree = "<group>";
+		};
+		22147E3528E48C337D241864DB398BAF /* flippers */ = {
+			isa = PBXGroup;
+			children = (
+				445A5FC6A757D64FBE7506FAD0DD25E5 /* FlipAnimation.h */,
+				81B297CB026E63EDAFECF9A1F261671C /* FlipAnimation.m */,
+				2A8B7D5B39BDF23EBED5C28B5C68C107 /* FlipInXAnimation.h */,
+				F59AB1D8CA73A4405216349DE9D4D13B /* FlipInXAnimation.m */,
+				16D3739FDE42C3D26631179FE1851DA3 /* FlipInYAnimation.h */,
+				B399219C3D1ECC681E1B469DE6B5CA84 /* FlipInYAnimation.m */,
+				CED6ADF70E8BB58A3F64BFFABD2A17AA /* FlipOutXAnimation.h */,
+				E0B9587D247E74BEFB93376AD5BA5710 /* FlipOutXAnimation.m */,
+				186C3A2FC2CBB07E57E2E82868F4A844 /* FlipOutYAnimation.h */,
+				454871BCC3ECBDAB7EC58B18034A8DEE /* FlipOutYAnimation.m */,
+			);
+			path = flippers;
+			sourceTree = "<group>";
+		};
+		2642262F665C7C70B3C125436BD39A9B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5F66195B2FABA116B36927ED8AE136B /* Pods-TTAnimationsExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3862BA3D2040ACDC5C49139F14FE9B29 /* zooming_entrances */ = {
+			isa = PBXGroup;
+			children = (
+				B01B6B2BAB22D548A58E9196C864EAB7 /* ZoomInAnimation.h */,
+				74F1FFD59896B7FB7DD9771A1C4D8BA4 /* ZoomInAnimation.m */,
+				C6352F3A2DAF2B609F2067A7A56D4E5C /* ZoomInDownAnimation.h */,
+				286D20E8F0E7B0070718B49B4482936F /* ZoomInDownAnimation.m */,
+				B6997FAAF7BAC9F567CCABE5EEC9C2AF /* ZoomInLeftAnimation.h */,
+				09F321F5935134BF606DA39397B3F7BD /* ZoomInLeftAnimation.m */,
+				863FFDD8B0799F98C284138E4C8B2D48 /* ZoomInRightAnimation.h */,
+				006426583DF796DCD7CAED3892AE69D1 /* ZoomInRightAnimation.m */,
+				C3F5CECA521358D626C3393056A27130 /* ZoomInUpAnimation.h */,
+				45DC0A7A7D7906CD898BD7E342680A3B /* ZoomInUpAnimation.m */,
+			);
+			path = zooming_entrances;
+			sourceTree = "<group>";
+		};
+		6E30BD5873C00BC0E56E13872AFBA00F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1535672C8185589A387B9D0334ED14C6 /* libPods-TTAnimationsExample.a */,
+				472CA47C1BA5027A266903EF2FBAA399 /* libTTAnimations.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+		705E650C1AF288437371F9DBA9E27F39 /* bouncing_entrances */ = {
 			isa = PBXGroup;
 			children = (
+				4130DB7CD103355F91841B2AA710B910 /* BounceInAnimation.h */,
+				15160E317AABC63F1565162A634120A9 /* BounceInAnimation.m */,
+				C2EC3F698DEA774D8CCBEB89ADA9683F /* BounceInDownAnimation.h */,
+				CF6BD2438C2447291D7A3D9AF4A894E6 /* BounceInDownAnimation.m */,
+				9D71425912B1775F2B2616EDD6DB6762 /* BounceInLeftAnimation.h */,
+				7A850B8866FA0E60EA27DA6FF7B50820 /* BounceInLeftAnimation.m */,
+				2088A03AA25FFF27E19B075CF0DBFB7A /* BounceInRightAnimation.h */,
+				8550A735BFED246361921BEDD890E570 /* BounceInRightAnimation.m */,
+				2B1331068FDE9562D8E25D7562414F35 /* BounceInUpAnimation.h */,
+				775032E6718D7FEAE213F2A0FB9439ED /* BounceInUpAnimation.m */,
 			);
-			name = Frameworks;
+			path = bouncing_entrances;
+			sourceTree = "<group>";
+		};
+		753745E6C38CB57255B888E612389623 /* specials */ = {
+			isa = PBXGroup;
+			children = (
+				BED40F592E439C7920E988BFB7A67861 /* HingeAnimation.h */,
+				094064B8FD3D19F1F96630612B48BFF0 /* HingeAnimation.m */,
+				75B726BB41A2A16398B18A8768D66C5D /* RollInAnimation.h */,
+				B67A6C09C317B634AFFB954A2E728A5A /* RollInAnimation.m */,
+				A00E5741660BEF30EE23038ECDEE1B5C /* RollOutAnimation.h */,
+				FC56A8FB9A04E39328720B926159092C /* RollOutAnimation.m */,
+			);
+			path = specials;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				09C5E90726D2521A760312DBF50D9358 /* Products */,
-				F6CCA5D896907CE7506C37FD31FC265A /* Targets Support Files */,
+				A38B803CF00A27A23096B30A84E5F6E0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6E30BD5873C00BC0E56E13872AFBA00F /* Products */,
+				2642262F665C7C70B3C125436BD39A9B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F6CCA5D896907CE7506C37FD31FC265A /* Targets Support Files */ = {
+		871DE46A0BFE1E5CE064DF1814B5149F /* attention_seekers */ = {
 			isa = PBXGroup;
 			children = (
+				9A99D0B756B635F10085186CBA323A1E /* BounceAnimation.h */,
+				7B2542A68FA66A2C3546BB0AAF44C04C /* BounceAnimation.m */,
+				B264281DB19FCB0999CD15FBA72A6F30 /* FlashAnimation.h */,
+				84C2FD5C7C954E5B04130377B346B63A /* FlashAnimation.m */,
+				70C41A7B04D17F17511A4EDE33F4CDC5 /* JelloAnimation.h */,
+				DEB72BA82113CA50C823887C6BB3E262 /* JelloAnimation.m */,
+				647920C72DAE588D6750A47A2C8F79B7 /* PulseAnimation.h */,
+				D034E8C3612BD206BF46FD3F22021072 /* PulseAnimation.m */,
+				FEF9DD44A76A2198299D89E83D9B8F53 /* RubberBandAnimation.h */,
+				6FE9D4F12D937D32F896CC009D8C747A /* RubberBandAnimation.m */,
+				0ED1C53BBE667997F82D641904C9FE73 /* ShakeAnimation.h */,
+				8DF7B6F48633051AF116B6198AA34BE9 /* ShakeAnimation.m */,
+				6788E3DFF281C9D972DF187FA5C1C8E0 /* SwingAnimation.h */,
+				9F6A18BE94A526B9C0126C17584EA1C0 /* SwingAnimation.m */,
+				8F87640CFE1535E5DC2EC7629EAE8402 /* TadaAnimation.h */,
+				7C229863A17A71A68432741768145B15 /* TadaAnimation.m */,
+				4C0357FD02859F741411C13393B4B5AC /* WobbleAnimation.h */,
+				19F03AE23D1FF361EBFFF433BBCFCD81 /* WobbleAnimation.m */,
 			);
-			name = "Targets Support Files";
+			path = attention_seekers;
+			sourceTree = "<group>";
+		};
+		A38B803CF00A27A23096B30A84E5F6E0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD3E3CD8D40C6C5452E0557C56EB9685 /* TTAnimations */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A5E6852B64EE1FAF1A0DC1C656CC1007 /* TTAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				3DB59A1E69EFB1A22B14761A4CB4A504 /* AnimationBuilder.h */,
+				5402128E1155656A8412B87677EB31F9 /* AnimationBuilder.m */,
+				EF5EDB8A2D708F886CA86CF19E3A50E3 /* AnimationHelper.h */,
+				1D9190AC2E5AB093B05C1BCEE4AD81C9 /* AnimationHelper.m */,
+				50DEDE79AA4DA84FEBFB3CF9CCE73FF9 /* AnimationParams.h */,
+				E60A850AF2F798C056DD79300484CE6E /* AnimationParams.m */,
+				6999F9E219A3537EA50EE43C9AA923EF /* BasicAnimation.h */,
+				753EEE6311BA36D991842E0DC481A3FE /* BasicAnimation.m */,
+				71A898D95ACD53F7FBC6BA135F976942 /* CATransform3DExtend.c */,
+				636A00235C61D63CBE4A70D4A10624A4 /* CATransform3DExtend.h */,
+				871DE46A0BFE1E5CE064DF1814B5149F /* attention_seekers */,
+				705E650C1AF288437371F9DBA9E27F39 /* bouncing_entrances */,
+				F4CF2FAE4E26684BE33D5CFA32BDBDD1 /* bouncing_exits */,
+				EABF336E65F1E0D933AE3E6E6B9E8D19 /* fading_entrances */,
+				18AC3D3FDB5CA3C316AFBC77C7A372A9 /* fading_exits */,
+				22147E3528E48C337D241864DB398BAF /* flippers */,
+				0AA8198B5A531FF186BB74FE8C6C944A /* lightspeed */,
+				753745E6C38CB57255B888E612389623 /* specials */,
+				3862BA3D2040ACDC5C49139F14FE9B29 /* zooming_entrances */,
+				17CA14D8EA4E4F547813B6F6C95F33CF /* zooming_exits */,
+			);
+			path = TTAnimations;
+			sourceTree = "<group>";
+		};
+		A5F66195B2FABA116B36927ED8AE136B /* Pods-TTAnimationsExample */ = {
+			isa = PBXGroup;
+			children = (
+				5A7C4FAD4FA99160957B2FC1C39F3F94 /* Pods-TTAnimationsExample-acknowledgements.markdown */,
+				95EAD2A32F4226E5E3B4998C7E51EB1E /* Pods-TTAnimationsExample-acknowledgements.plist */,
+				2F442CBBF7667112989BF3ECF42A19C1 /* Pods-TTAnimationsExample-dummy.m */,
+				1A68EB50A40CBB7385F7B95756CCE0C8 /* Pods-TTAnimationsExample-frameworks.sh */,
+				6D39BF0E356476ADAB37599692651729 /* Pods-TTAnimationsExample-resources.sh */,
+				5EC62B325C94C3EBA97F770B59DC7ED4 /* Pods-TTAnimationsExample.debug.xcconfig */,
+				04B40E50E45491C55E7C30579FFE1A75 /* Pods-TTAnimationsExample.release.xcconfig */,
+			);
+			name = "Pods-TTAnimationsExample";
+			path = "Target Support Files/Pods-TTAnimationsExample";
+			sourceTree = "<group>";
+		};
+		AD3E3CD8D40C6C5452E0557C56EB9685 /* TTAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				BAD373AC6A0AFF460E4675AF1158476D /* Support Files */,
+				A5E6852B64EE1FAF1A0DC1C656CC1007 /* TTAnimations */,
+			);
+			name = TTAnimations;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BAD373AC6A0AFF460E4675AF1158476D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF86567B2E66D0A74612C60C3B14DCB1 /* TTAnimations.xcconfig */,
+				755281CA6D0E76585427385270F72E99 /* TTAnimations-dummy.m */,
+				9EECA1DDE653D65F835B6F2212346A3D /* TTAnimations-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/TTAnimations";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EABF336E65F1E0D933AE3E6E6B9E8D19 /* fading_entrances */ = {
+			isa = PBXGroup;
+			children = (
+				728094CC74A439CD6266BEEDBA8E4CC1 /* FadeInAnimation.h */,
+				042785A282E0804E9F4A2241DB58A15D /* FadeInAnimation.m */,
+				8FE3679241C1D493E4CCD59DC607D0BE /* FadeInDownAnimation.h */,
+				307748D94A77B8112465712A950C36D3 /* FadeInDownAnimation.m */,
+				B9B04A5E32C5F85DEFFA56B6BA3B77CE /* FadeInDownBigAnimation.h */,
+				564A9484A5EEEE4BD71ED7C72B2C1F0C /* FadeInDownBigAnimation.m */,
+				5BB6C6B690F43B788AE1A5228C546AA8 /* FadeInLeftAnimation.h */,
+				FD1A8FE71FD595A6CDDD9B4C6B427B09 /* FadeInLeftAnimation.m */,
+				3E9D5499E8487E5E156E248FB9BCAE56 /* FadeInLeftBigAnimation.h */,
+				28B9B1B18DF80E66F8E9435946B366A3 /* FadeInLeftBigAnimation.m */,
+				BBC31192D7D31FDA35698C26DEC79918 /* FadeInRightAnimation.h */,
+				AAD4AD4EB57D9474814B3D9DED9E6044 /* FadeInRightAnimation.m */,
+				1E995C2FCD2D73438FD8A04B9348540D /* FadeInRightBigAnimation.h */,
+				77FB301347D3B8016C0A5BD7E6FA3D34 /* FadeInRightBigAnimation.m */,
+				D464FC02B5C38E0FC0D863DB0E68ED6B /* FadeInUpAnimation.h */,
+				0E39BC8BFEC73443AFBB405F4E764F1C /* FadeInUpAnimation.m */,
+				76772C391433E05C173A4A9E43C716D0 /* FadeInUpBigAnimation.h */,
+				4D4696805652E8BE335F60A74CFEDC7F /* FadeInUpBigAnimation.m */,
+			);
+			path = fading_entrances;
+			sourceTree = "<group>";
+		};
+		F4CF2FAE4E26684BE33D5CFA32BDBDD1 /* bouncing_exits */ = {
+			isa = PBXGroup;
+			children = (
+				CF04011DC744781490D027E12BF44E97 /* BounceOutAnimation.h */,
+				34D79D0702F26642B96AEF0C5E86BE1D /* BounceOutAnimation.m */,
+				BE909A2972DC0F41C78145C5EC9F89B4 /* BounceOutDownAnimation.h */,
+				26C004FC3FF02A9A59AF87D149428993 /* BounceOutDownAnimation.m */,
+				37913EE8EE5A3F90F2C73E35C9F7C200 /* BounceOutLeftAnimation.h */,
+				0343A043B85FB57306185778BB72B8ED /* BounceOutLeftAnimation.m */,
+				AB5253D49AE4C066467A8D13271006FE /* BounceOutRightAnimation.h */,
+				DF81B7E700B3FC1DCA8B2182757D6135 /* BounceOutRightAnimation.m */,
+				9BE994C6C4654481044A98583CA82B2B /* BounceOutUpAnimation.h */,
+				9E3AC0D6F1C0CA9D42DB77A60C59024A /* BounceOutUpAnimation.m */,
+			);
+			path = bouncing_exits;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D2F3E2C2119560452C2917BE998C8D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5D3BD58630DD9D651963F91971DE8C /* AnimationBuilder.h in Headers */,
+				E4AA7BAF766794F55654647203BFBBD7 /* AnimationHelper.h in Headers */,
+				BDF59241BE1EB6EB30873A6553FB7B7A /* AnimationParams.h in Headers */,
+				94457E80450F74A37B20531C584573F9 /* BasicAnimation.h in Headers */,
+				7BC9A7431E6C28FF0BECA58CAE6E369B /* BounceAnimation.h in Headers */,
+				4E3A3F2B911A1BE75A5461A2AA7F5797 /* BounceInAnimation.h in Headers */,
+				7D47569DB508758BAE2D004C08D5AFE5 /* BounceInDownAnimation.h in Headers */,
+				820CE8744C87E3860C85892BF2B8D452 /* BounceInLeftAnimation.h in Headers */,
+				DB5A95DD9D2E5257DD5A6971B7D0709D /* BounceInRightAnimation.h in Headers */,
+				2DC14B8647586D7303B3BE02184F2EF2 /* BounceInUpAnimation.h in Headers */,
+				3B3C360E0842548452AF8A2992BD7352 /* BounceOutAnimation.h in Headers */,
+				EAAA906EA11E6A4C46CBC92E1620ED5A /* BounceOutDownAnimation.h in Headers */,
+				15A1FAB909B68BA686F42E240911DA0B /* BounceOutLeftAnimation.h in Headers */,
+				53E3B95CBF35978D75861F9A4D5044F1 /* BounceOutRightAnimation.h in Headers */,
+				0BE88E1E036E167D6FE2EFE64C02260A /* BounceOutUpAnimation.h in Headers */,
+				C2893B34719D41F90179AC328C575148 /* CATransform3DExtend.h in Headers */,
+				2B01476187D36C070372ED9E15B70794 /* FadeInAnimation.h in Headers */,
+				1DB44E63A425994FA2827783FD777B3B /* FadeInDownAnimation.h in Headers */,
+				D40DF1D1CECB14E0508B2B142F20D00B /* FadeInDownBigAnimation.h in Headers */,
+				49701A0BDB89B50FB53944751DD0B1FD /* FadeInLeftAnimation.h in Headers */,
+				2466304AB731B50A2A2DCA61C532FEDB /* FadeInLeftBigAnimation.h in Headers */,
+				06924A425CDD14DFAF95EC480733D20F /* FadeInRightAnimation.h in Headers */,
+				E3850254A511309D4D3C0B12D545DE05 /* FadeInRightBigAnimation.h in Headers */,
+				AF10E67FB6F2A6B0F6163DBD19ECA00A /* FadeInUpAnimation.h in Headers */,
+				BA15CB69850F1419D75FA806F6496E42 /* FadeInUpBigAnimation.h in Headers */,
+				18FA33C1DEFC1ADBB0136BAE27199EAA /* FadeOutAnimation.h in Headers */,
+				D1DE5E2E1A6A8A2CB9FCC43DAF41BE24 /* FadeOutDownAnimation.h in Headers */,
+				F9F9869012868F6C7DB9D25A74AF86D0 /* FadeOutDownBigAnimation.h in Headers */,
+				C23773FE81B8436318620B85D1381594 /* FadeOutLeftAnimation.h in Headers */,
+				89A649A1295F0DBD7D03823508535DDE /* FadeOutLeftBigAnimation.h in Headers */,
+				2E61A3F19F7A411BC89E1D662287FE44 /* FadeOutRightAnimation.h in Headers */,
+				A8B4E2F13711DEDFCBD28BAE15958880 /* FadeOutRightBigAnimation.h in Headers */,
+				DAD86638D154D6226EFC76DF735DA48B /* FadeOutUpAnimation.h in Headers */,
+				4D4F18A3F9D5CD0F834E83D3ADF1F6E4 /* FadeOutUpBigAnimation.h in Headers */,
+				2F5B7A2FBB5016BD121C55982A1F0B43 /* FlashAnimation.h in Headers */,
+				2EFD8AAEBFD86DC2EBC688EEA8E0110E /* FlipAnimation.h in Headers */,
+				B5C9DB2FE55CCB4813E17D002A2D0377 /* FlipInXAnimation.h in Headers */,
+				2DD18AA654553D5928B1638696476FAD /* FlipInYAnimation.h in Headers */,
+				9410E09F2F3D75BF495EB6F6CDBB7490 /* FlipOutXAnimation.h in Headers */,
+				D7D88F5F33420B86A5E2F9C11308DA36 /* FlipOutYAnimation.h in Headers */,
+				98B7EE9BB4A65C47362CF43E17D8575C /* HingeAnimation.h in Headers */,
+				C61BDA4CE67313A03DE58CDF8B36138B /* JelloAnimation.h in Headers */,
+				8BE9E67F8482D0B24CE7BA522AB3205F /* LightSpeedInAnimation.h in Headers */,
+				F702EACDFD129543CD2F8075A14F526F /* LightSpeedOutAnimation.h in Headers */,
+				B844D2B641BA240C8061EC18F750F3AB /* PulseAnimation.h in Headers */,
+				D546EE985836A34FF6EA357BCC49EEE9 /* RollInAnimation.h in Headers */,
+				09DD22B417547E95ECE5A219671FB5AB /* RollOutAnimation.h in Headers */,
+				81D625507245F616617390E268A0C235 /* RubberBandAnimation.h in Headers */,
+				6459483C210B50863DB05440F5C854BC /* ShakeAnimation.h in Headers */,
+				2BA929F8D4B779690D7C6C6BF230BB52 /* SwingAnimation.h in Headers */,
+				35B8E2EF637258566CAD0A9C51081EE6 /* TadaAnimation.h in Headers */,
+				67F850C3CFB874658B2D7902247F2502 /* WobbleAnimation.h in Headers */,
+				A7218D215C40ED33406D46DECA84BAC4 /* ZoomInAnimation.h in Headers */,
+				16ED3C30DEBA5662965FCE9C2A816444 /* ZoomInDownAnimation.h in Headers */,
+				EEED035E091FE15F7DB02DFB0F15E8FC /* ZoomInLeftAnimation.h in Headers */,
+				E0D8174197EE62BBB61A4ADDAD595757 /* ZoomInRightAnimation.h in Headers */,
+				1BBF92A1F36F52E9D022604E8C739491 /* ZoomInUpAnimation.h in Headers */,
+				50C74DA387B9F04E75E4350189B3A915 /* ZoomOutAnimation.h in Headers */,
+				88A0BCCE0264426DEBBF6431A7DE81AD /* ZoomOutDownAnimation.h in Headers */,
+				6865170037970F34744798BD6358F326 /* ZoomOutLeftAnimation.h in Headers */,
+				634C28437A1D53C6ADCC9CE68EA5BDCE /* ZoomOutRightAnimation.h in Headers */,
+				28005DAAA6FC158A49E5BBF7F08D794C /* ZoomOutUpAnimation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D83CAC69BE7DD6B98CBEF7E0184D4586 /* TTAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958447CFCEA3F80FB52E35D32E2A5E92 /* Build configuration list for PBXNativeTarget "TTAnimations" */;
+			buildPhases = (
+				0B64C61EEDA58195A6974533F844417B /* Sources */,
+				36171914B6513392B44E4861644A9876 /* Frameworks */,
+				8D2F3E2C2119560452C2917BE998C8D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTAnimations;
+			productName = TTAnimations;
+			productReference = 472CA47C1BA5027A266903EF2FBAA399 /* libTTAnimations.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E42CADB352B4E468357C8D71E11455CF /* Pods-TTAnimationsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E6E823C537F355055F7B520A9775D3D /* Build configuration list for PBXNativeTarget "Pods-TTAnimationsExample" */;
+			buildPhases = (
+				7785DF5FD34B2AE9FA2913B1FB322657 /* Sources */,
+				EC1FC3B6A8DDB7154A16DA4ECC3BDA63 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F5DA2C3F77437FCFC68C1296D95F40F /* PBXTargetDependency */,
+			);
+			name = "Pods-TTAnimationsExample";
+			productName = "Pods-TTAnimationsExample";
+			productReference = 1535672C8185589A387B9D0334ED14C6 /* libPods-TTAnimationsExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
@@ -59,16 +733,144 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 09C5E90726D2521A760312DBF50D9358 /* Products */;
+			productRefGroup = 6E30BD5873C00BC0E56E13872AFBA00F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				E42CADB352B4E468357C8D71E11455CF /* Pods-TTAnimationsExample */,
+				D83CAC69BE7DD6B98CBEF7E0184D4586 /* TTAnimations */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXSourcesBuildPhase section */
+		0B64C61EEDA58195A6974533F844417B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B523A8E6F7BF6CCA1AEDFC88A4445DC /* AnimationBuilder.m in Sources */,
+				A43449CF31F809E99728AC751E147CAB /* AnimationHelper.m in Sources */,
+				EAD05F7353FA481DE2C4B38F02B8C7E0 /* AnimationParams.m in Sources */,
+				D57F7127D0D86F781DBC6A965E19336C /* BasicAnimation.m in Sources */,
+				C7BF5267716F4467C76E05D474201A71 /* BounceAnimation.m in Sources */,
+				4D46B81F2839C64CF9ABA9499855C66E /* BounceInAnimation.m in Sources */,
+				5157D2859D1ABB86B0034832F52E7A4E /* BounceInDownAnimation.m in Sources */,
+				06FA037B152ACEEBDCD88A713576FFEB /* BounceInLeftAnimation.m in Sources */,
+				951F739E43619FC9E053BDC268022E37 /* BounceInRightAnimation.m in Sources */,
+				D9C00B7223E8836820ADC67884682DC6 /* BounceInUpAnimation.m in Sources */,
+				8CDBC87E3854676C489B4F47235B9D70 /* BounceOutAnimation.m in Sources */,
+				E845AF7395694DB84E9112A3FE504EC2 /* BounceOutDownAnimation.m in Sources */,
+				45B14E1E1E16EBD0370A3EC311A1D53E /* BounceOutLeftAnimation.m in Sources */,
+				C5DF64DDC14CFB3F1116542A37FDE158 /* BounceOutRightAnimation.m in Sources */,
+				D105CE94FC10FE1996961B6B26C341CF /* BounceOutUpAnimation.m in Sources */,
+				DC603F2D52DFE7016970B5D61F36D0C6 /* CATransform3DExtend.c in Sources */,
+				E3E943F5E9BCDAFA880CC5EA9E6F4FA4 /* FadeInAnimation.m in Sources */,
+				AAD002F2BA05E8C28F11D1B86B248B88 /* FadeInDownAnimation.m in Sources */,
+				5249375EA4158D774CA57E65C989678B /* FadeInDownBigAnimation.m in Sources */,
+				F5DF790EDC9C41BF0F7FC30996EC379B /* FadeInLeftAnimation.m in Sources */,
+				114FF353B0A2A10F75CA975D8F26CDA5 /* FadeInLeftBigAnimation.m in Sources */,
+				FA0ED0F9E7234226A404D61E6121898F /* FadeInRightAnimation.m in Sources */,
+				2065184A08CF17FE2927165DA80793FF /* FadeInRightBigAnimation.m in Sources */,
+				FB7916AC857CB9E2AB3E9A36062E6996 /* FadeInUpAnimation.m in Sources */,
+				1F964E92117A4E7691DF8D2E786BFF53 /* FadeInUpBigAnimation.m in Sources */,
+				D904AC342C78BC48577AECC4E3919D24 /* FadeOutAnimation.m in Sources */,
+				2A148096E20387CA01B284D369D4E8CB /* FadeOutDownAnimation.m in Sources */,
+				9214DF511E9230C47A309FA857069FF4 /* FadeOutDownBigAnimation.m in Sources */,
+				805EB5A02B87EA590B380712BC525BAB /* FadeOutLeftAnimation.m in Sources */,
+				9F2078B1F4359443A1839CBDC1464837 /* FadeOutLeftBigAnimation.m in Sources */,
+				83E96AE2B3D6A31214CBDE12980CC0F7 /* FadeOutRightAnimation.m in Sources */,
+				470B8DFC7DD050DCCD4687AB6E62EE2D /* FadeOutRightBigAnimation.m in Sources */,
+				AD1B18D6DE0173141C5069D961D0C00A /* FadeOutUpAnimation.m in Sources */,
+				129D747C6CA74DDB4FD22A841090FD1F /* FadeOutUpBigAnimation.m in Sources */,
+				B3D7D3DB28AD90FD0C69EF4C10986901 /* FlashAnimation.m in Sources */,
+				0AD0F5B8EFD9DC4641C4C7E216E5BE0D /* FlipAnimation.m in Sources */,
+				F6C5C77F51E480ABFAA70FA5A925EEAD /* FlipInXAnimation.m in Sources */,
+				41AB6C622F3E04F547CF17DC356B44E9 /* FlipInYAnimation.m in Sources */,
+				851C3655678FEEFC2DA46B39A694C77A /* FlipOutXAnimation.m in Sources */,
+				95564D63D268C70B8D875A5CDBAF2070 /* FlipOutYAnimation.m in Sources */,
+				A70B796B32222F3D630CCEC1840BBE01 /* HingeAnimation.m in Sources */,
+				466AB665E6A98B8D98A9F66D181AE495 /* JelloAnimation.m in Sources */,
+				4C7F7696FFAD99A06F2419EFDA3C1612 /* LightSpeedInAnimation.m in Sources */,
+				862C14B0F91268566AF0A3A5C1CC79E9 /* LightSpeedOutAnimation.m in Sources */,
+				CD215858D1BF9168AD8868841A564C2B /* PulseAnimation.m in Sources */,
+				4C1A8246B014DDABD59C69B525FFE6BE /* RollInAnimation.m in Sources */,
+				FCB8DB754B1FC9DFAAFDC726EC58CF84 /* RollOutAnimation.m in Sources */,
+				C45C25B0C553B3878BE29BB5F3BEC54E /* RubberBandAnimation.m in Sources */,
+				2F794C837AD22DB3417CE5CBC5A8D25B /* ShakeAnimation.m in Sources */,
+				234A3EFDEDBDC6CEBBB74FDD5979400C /* SwingAnimation.m in Sources */,
+				5196C239D5387C8D56BFC292B3618A54 /* TadaAnimation.m in Sources */,
+				BE48AA0E974B55CEC8934598B085D6A2 /* TTAnimations-dummy.m in Sources */,
+				707E7B41B6A817DD4B85A8F55C4F3DA9 /* WobbleAnimation.m in Sources */,
+				76C98DDEA1E52205267A27FA90ED4A8F /* ZoomInAnimation.m in Sources */,
+				075254B70E68B1C4BE729E45D0BFD2EF /* ZoomInDownAnimation.m in Sources */,
+				A4A166133A7F71B15401D158A243BB49 /* ZoomInLeftAnimation.m in Sources */,
+				5D3A049EE23632BB055C6A2F59B67C98 /* ZoomInRightAnimation.m in Sources */,
+				B30C56578AEF6381727B136985FC0532 /* ZoomInUpAnimation.m in Sources */,
+				DCA3C90F8609C91D3C799C1AE8728CC7 /* ZoomOutAnimation.m in Sources */,
+				02FE6AF01FCCF7FD0E6B2C71A0B08F3D /* ZoomOutDownAnimation.m in Sources */,
+				DDE8C9F0D6D53A32F8BC56FEF31D1F24 /* ZoomOutLeftAnimation.m in Sources */,
+				704545E90C91F670ED371EBEA0CDE64D /* ZoomOutRightAnimation.m in Sources */,
+				129C9796641FFC9F93CEE652A3BCA8C8 /* ZoomOutUpAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7785DF5FD34B2AE9FA2913B1FB322657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8566613666F73C6A8E4648AB1CB6D6 /* Pods-TTAnimationsExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F5DA2C3F77437FCFC68C1296D95F40F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTAnimations;
+			target = D83CAC69BE7DD6B98CBEF7E0184D4586 /* TTAnimations */;
+			targetProxy = 3FEC690E9D7EBBC2403F45B04A54DA51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+		004C5FDB2F1B274FFC01473F4D08480D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF86567B2E66D0A74612C60C3B14DCB1 /* TTAnimations.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTAnimations/TTAnimations-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3A82B4A4538C08FBA60EED595912724F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF86567B2E66D0A74612C60C3B14DCB1 /* TTAnimations.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTAnimations/TTAnimations-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -100,14 +902,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -134,10 +936,44 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A862474AF1670AA697D7067DDBF1D083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC62B325C94C3EBA97F770B59DC7ED4 /* Pods-TTAnimationsExample.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F6743E7F88A5ADFF93C61AD449886DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B40E50E45491C55E7C30579FFE1A75 /* Pods-TTAnimationsExample.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -147,8 +983,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D1534490D941DCA47C62AC4314182AF /* Debug */,
-				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
+				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E6E823C537F355055F7B520A9775D3D /* Build configuration list for PBXNativeTarget "Pods-TTAnimationsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A862474AF1670AA697D7067DDBF1D083 /* Debug */,
+				F6743E7F88A5ADFF93C61AD449886DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958447CFCEA3F80FB52E35D32E2A5E92 /* Build configuration list for PBXNativeTarget "TTAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004C5FDB2F1B274FFC01473F4D08480D /* Debug */,
+				3A82B4A4538C08FBA60EED595912724F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

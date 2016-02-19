@@ -12,7 +12,7 @@
 
 
 typedef NS_ENUM(NSUInteger, AnimationType) {
-    bounce,
+    bounce = 0,
     Flash,
     pulse,
     rubberBand,

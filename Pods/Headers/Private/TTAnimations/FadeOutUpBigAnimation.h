@@ -1,0 +1,1 @@
+../../../../TTAnimations/fading_exits/FadeOutUpBigAnimation.h

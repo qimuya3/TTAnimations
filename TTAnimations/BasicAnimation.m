@@ -8,6 +8,7 @@
 #import "BasicAnimation.h"
 #import "AnimationParams.h"
 
+
 @implementation BasicAnimation
 
 - (instancetype)initWith:(AnimationParams *)animationParams
