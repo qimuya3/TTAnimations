@@ -120,4 +120,11 @@
 }
 
 
+- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
+{
+    [AnimationHelper playAnimationOn:_targetLabel animationType:row];
+    
+    
+}
+
 @end
