@@ -21,6 +21,8 @@
     UIView * _targetView;
     CAAnimationGroup * _animationGroup;
 }
+@property(nonatomic,strong)id delegate;
+
 - (instancetype)initWith:(AnimationParams *)animationParams
                     view:(UIView *)targetView;
 -(void)start;

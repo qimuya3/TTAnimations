@@ -48,16 +48,33 @@
     
 }
 
+-(void)resume
+{
+    CGRect oldFrame = _targetView.frame;
+    _targetView.layer.anchorPoint = CGPointMake(0.5, 0.5);
+    _targetView.frame = oldFrame;
+    
+}
+
+#pragma mark set
+-(void)setDelegate:(id)delegate
+{
+    _delegate =delegate;
+    
+}
+
 #pragma mark caanimation delegate
 - (void)animationDidStart:(CAAnimation *)anim{
-
     
+    [_delegate animationDidStart:anim];
 }
 
 
 
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag{
     
+    [self resume];
+    [_delegate animationDidStop:anim finished:flag];
 }
 
 @end

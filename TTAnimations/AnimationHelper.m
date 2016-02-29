@@ -30,7 +30,16 @@ static AnimationBuilder * animationBuilder;
     
 }
 
-
++(void)playAnimationOn:(UIView *)targetView
+         animationType:(AnimationType)animationType
+              delegate:(id)delegate
+{
+    AnimationBuilder * defaultAnimationBuilder  =  [self defaultAnimationBuilder];
+    [defaultAnimationBuilder setAnimationType:animationType];
+    [defaultAnimationBuilder setDelegate:delegate];
+    [defaultAnimationBuilder startOn:targetView];
+    
+}
 
 
 @end

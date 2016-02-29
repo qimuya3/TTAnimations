@@ -15,4 +15,8 @@
 +(void)playAnimationOn:(UIView *)targetView
          animationType:(AnimationType)animationType;
 
+
++(void)playAnimationOn:(UIView *)targetView
+         animationType:(AnimationType)animationType
+              delegate:(id)delegate;
 @end

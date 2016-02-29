@@ -9,11 +9,6 @@
 #import "AnimationBuilder.h"
 #import "BasicAnimation.h"
 #import "AnimationParams.h"
-#import "ZoomOutAnimation.h"
-#import "ZoomOutDownAnimation.h"
-#import "ZoomOutLeftAnimation.h"
-#import "ZoomOutRightAnimation.h"
-#import "ZoomOutUpAnimation.h"
 
 #import "BounceAnimation.h"
 #import  "FlashAnimation.h"
@@ -70,8 +65,22 @@
 #import "RollInAnimation.h"
 #import "RollOutAnimation.h"
 
+#import "ZoomInAnimation.h"
+#import "ZoomInDownAnimation.h"
+#import "ZoomInLeftAnimation.h"
+#import "ZoomInRightAnimation.h"
+#import "ZoomInUpAnimation.h"
+
+#import "ZoomOutAnimation.h"
+#import "ZoomOutDownAnimation.h"
+#import "ZoomOutLeftAnimation.h"
+#import "ZoomOutRightAnimation.h"
+#import "ZoomOutUpAnimation.h"
+
 @implementation AnimationBuilder{
     AnimationParams  * _animationParams;
+    
+    id  _animationDelegate;
 }
 
 -(instancetype)init
@@ -240,6 +249,23 @@
             basicAnimation = [[RollOutAnimation alloc] initWith:_animationParams view:targetView];
             break;
             
+            
+        case zoomIn:
+            basicAnimation = [[ZoomInAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case zoomInDown:
+            basicAnimation = [[ZoomInDownAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case zoomInLeft:
+            basicAnimation = [[ZoomInLeftAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case zoomInRight:
+            basicAnimation = [[ZoomInRightAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case zoomInUp:
+            basicAnimation = [[ZoomInUpAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+            
         case zoomOut:
             basicAnimation = [[ZoomOutAnimation alloc] initWith:_animationParams view:targetView];
             break;
@@ -270,6 +296,10 @@
 -(void)startOn:(UIView * )targetView;
 {
     BasicAnimation * animation = [self createAnimationWith:targetView];
+    if(_animationDelegate !=nil){
+        
+        animation.delegate = _animationDelegate;
+    }
     [animation start];
 }
 
@@ -299,6 +329,10 @@
     
 }
 
-
+-(AnimationBuilder *)setDelegate:(id)delegate
+{
+    _animationDelegate = delegate;
+    return self;
+}
 
 @end

@@ -22,6 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    _targetLabel.textColor = [self randomColor ];
+    
     _animationTypes = @[
                        
                         @"bounce",
@@ -98,6 +100,31 @@
 }
 
 
+
+-(UIColor *)randomColor {
+    CGFloat hue = arc4random() % 100 / 100.0;
+    CGFloat saturation = (arc4random() % 50 / 100) + 0.5;
+    CGFloat brightness = (arc4random() % 50 / 100) + 0.5;
+    
+    return [UIColor colorWithHue:hue saturation:saturation brightness:brightness alpha:1];
+}
+
+#pragma mark CAAnimationDelegate delegate
+-(void)animationDidStart:(CAAnimation *)anim
+{
+    NSLog(@"animation start");
+    
+}
+
+-(void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
+{
+    NSLog(@"animation stop");
+
+    
+}
+
+
+
 #pragma mark datePicker
 // returns the number of 'columns' to display.
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
@@ -122,7 +149,7 @@
 
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
-    [AnimationHelper playAnimationOn:_targetLabel animationType:row];
+    [AnimationHelper playAnimationOn:_targetLabel animationType:row delegate:self];
     
     
 }

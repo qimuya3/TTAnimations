@@ -45,7 +45,7 @@
     transformAnimation.values= scales;
 
     
-    
+
     //animation group
     _animationGroup.animations = @[opacityAnimation,transformAnimation];
 

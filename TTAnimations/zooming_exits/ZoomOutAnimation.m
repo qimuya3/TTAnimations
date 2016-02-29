@@ -29,7 +29,7 @@
     transformScaleAnimation.keyTimes = @[@0,@0.5,@1];
     transformScaleAnimation.values=scales;
     
-    
+    _animationGroup.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionDefault];
     _animationGroup.animations = @[opacityAnimation,transformScaleAnimation];
 
 }

@@ -45,7 +45,6 @@
     _animationGroup.animations = @[opacityAnimation,transformAnimation];
     _animationGroup.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionDefault];
     
-    [_targetView.layer addAnimation:_animationGroup forKey:@""];
     
     
     
