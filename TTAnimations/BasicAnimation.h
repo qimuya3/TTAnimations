@@ -15,6 +15,9 @@
 
 
 #define deg(x) x*M_PI/180.0f
+#define ViewWidth(v)                        v.frame.size.width
+#define ViewHeight(v)                       v.frame.size.height
+
 @interface BasicAnimation : NSObject
 {
     AnimationParams * _params;

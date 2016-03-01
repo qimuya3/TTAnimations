@@ -39,6 +39,24 @@
 		2F794C837AD22DB3417CE5CBC5A8D25B /* ShakeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF7B6F48633051AF116B6198AA34BE9 /* ShakeAnimation.m */; };
 		35B8E2EF637258566CAD0A9C51081EE6 /* TadaAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F87640CFE1535E5DC2EC7629EAE8402 /* TadaAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3B3C360E0842548452AF8A2992BD7352 /* BounceOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CF04011DC744781490D027E12BF44E97 /* BounceOutAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B759FDF1C8476DF0067E90E /* SlideOutDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B759FDE1C8476DF0067E90E /* SlideOutDownAnimation.m */; };
+		3B759FE21C8476FB0067E90E /* SlideOutLeftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B759FE11C8476FB0067E90E /* SlideOutLeftAnimation.m */; };
+		3B759FE51C84774E0067E90E /* SlideOutRightAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B759FE41C84774E0067E90E /* SlideOutRightAnimation.m */; };
+		3B759FE81C84777F0067E90E /* SlideOutUpAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B759FE71C84777F0067E90E /* SlideOutUpAnimation.m */; };
+		3B759FEB1C8477DB0067E90E /* SlideInDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B759FEA1C8477DB0067E90E /* SlideInDownAnimation.m */; };
+		3B759FEE1C84782D0067E90E /* SlideInLeftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B759FED1C84782D0067E90E /* SlideInLeftAnimation.m */; };
+		3B759FF11C84784E0067E90E /* SlideInRightAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B759FF01C84784E0067E90E /* SlideInRightAnimation.m */; };
+		3B759FF41C8478680067E90E /* SlideInUpAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B759FF31C8478680067E90E /* SlideInUpAnimation.m */; };
+		3B759FF91C84979B0067E90E /* RotateInAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B759FF81C84979B0067E90E /* RotateInAnimation.m */; };
+		3B759FFC1C8497C70067E90E /* RotateInDownLeftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B759FFB1C8497C70067E90E /* RotateInDownLeftAnimation.m */; };
+		3B759FFF1C84983B0067E90E /* RotateInDownRightAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B759FFE1C84983B0067E90E /* RotateInDownRightAnimation.m */; };
+		3B75A0021C8498620067E90E /* RotateInUpLeftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B75A0011C8498620067E90E /* RotateInUpLeftAnimation.m */; };
+		3B75A0051C8498850067E90E /* RotateInUpRightAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B75A0041C8498850067E90E /* RotateInUpRightAnimation.m */; };
+		3B75A0081C8498B60067E90E /* RotateOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B75A0071C8498B60067E90E /* RotateOutAnimation.m */; };
+		3B75A00B1C8498E00067E90E /* RotateOutDownLeftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B75A00A1C8498E00067E90E /* RotateOutDownLeftAnimation.m */; };
+		3B75A00E1C8499190067E90E /* RotateOutDownRightAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B75A00D1C8499190067E90E /* RotateOutDownRightAnimation.m */; };
+		3B75A0111C84994D0067E90E /* RotateOutUpLeftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B75A0101C84994D0067E90E /* RotateOutUpLeftAnimation.m */; };
+		3B75A0141C8499A80067E90E /* RotateOutUpRightAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B75A0131C8499A80067E90E /* RotateOutUpRightAnimation.m */; };
 		41AB6C622F3E04F547CF17DC356B44E9 /* FlipInYAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B399219C3D1ECC681E1B469DE6B5CA84 /* FlipInYAnimation.m */; };
 		45B14E1E1E16EBD0370A3EC311A1D53E /* BounceOutLeftAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0343A043B85FB57306185778BB72B8ED /* BounceOutLeftAnimation.m */; };
 		466AB665E6A98B8D98A9F66D181AE495 /* JelloAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB72BA82113CA50C823887C6BB3E262 /* JelloAnimation.m */; };
@@ -181,6 +199,42 @@
 		34D79D0702F26642B96AEF0C5E86BE1D /* BounceOutAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BounceOutAnimation.m; sourceTree = "<group>"; };
 		37913EE8EE5A3F90F2C73E35C9F7C200 /* BounceOutLeftAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BounceOutLeftAnimation.h; sourceTree = "<group>"; };
 		39A514E041041D65BFD2ABC9A73CEF37 /* LightSpeedOutAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightSpeedOutAnimation.m; sourceTree = "<group>"; };
+		3B759FDD1C8476DF0067E90E /* SlideOutDownAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideOutDownAnimation.h; path = sliding_exits/SlideOutDownAnimation.h; sourceTree = "<group>"; };
+		3B759FDE1C8476DF0067E90E /* SlideOutDownAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideOutDownAnimation.m; path = sliding_exits/SlideOutDownAnimation.m; sourceTree = "<group>"; };
+		3B759FE01C8476FB0067E90E /* SlideOutLeftAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideOutLeftAnimation.h; path = sliding_exits/SlideOutLeftAnimation.h; sourceTree = "<group>"; };
+		3B759FE11C8476FB0067E90E /* SlideOutLeftAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideOutLeftAnimation.m; path = sliding_exits/SlideOutLeftAnimation.m; sourceTree = "<group>"; };
+		3B759FE31C84774E0067E90E /* SlideOutRightAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideOutRightAnimation.h; path = sliding_exits/SlideOutRightAnimation.h; sourceTree = "<group>"; };
+		3B759FE41C84774E0067E90E /* SlideOutRightAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideOutRightAnimation.m; path = sliding_exits/SlideOutRightAnimation.m; sourceTree = "<group>"; };
+		3B759FE61C84777F0067E90E /* SlideOutUpAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideOutUpAnimation.h; path = sliding_exits/SlideOutUpAnimation.h; sourceTree = "<group>"; };
+		3B759FE71C84777F0067E90E /* SlideOutUpAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideOutUpAnimation.m; path = sliding_exits/SlideOutUpAnimation.m; sourceTree = "<group>"; };
+		3B759FE91C8477DB0067E90E /* SlideInDownAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideInDownAnimation.h; path = sliding_entrances/SlideInDownAnimation.h; sourceTree = "<group>"; };
+		3B759FEA1C8477DB0067E90E /* SlideInDownAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideInDownAnimation.m; path = sliding_entrances/SlideInDownAnimation.m; sourceTree = "<group>"; };
+		3B759FEC1C84782D0067E90E /* SlideInLeftAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideInLeftAnimation.h; path = sliding_entrances/SlideInLeftAnimation.h; sourceTree = "<group>"; };
+		3B759FED1C84782D0067E90E /* SlideInLeftAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideInLeftAnimation.m; path = sliding_entrances/SlideInLeftAnimation.m; sourceTree = "<group>"; };
+		3B759FEF1C84784E0067E90E /* SlideInRightAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideInRightAnimation.h; path = sliding_entrances/SlideInRightAnimation.h; sourceTree = "<group>"; };
+		3B759FF01C84784E0067E90E /* SlideInRightAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideInRightAnimation.m; path = sliding_entrances/SlideInRightAnimation.m; sourceTree = "<group>"; };
+		3B759FF21C8478680067E90E /* SlideInUpAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideInUpAnimation.h; path = sliding_entrances/SlideInUpAnimation.h; sourceTree = "<group>"; };
+		3B759FF31C8478680067E90E /* SlideInUpAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideInUpAnimation.m; path = sliding_entrances/SlideInUpAnimation.m; sourceTree = "<group>"; };
+		3B759FF71C84979B0067E90E /* RotateInAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RotateInAnimation.h; path = rotating_entrances/RotateInAnimation.h; sourceTree = "<group>"; };
+		3B759FF81C84979B0067E90E /* RotateInAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RotateInAnimation.m; path = rotating_entrances/RotateInAnimation.m; sourceTree = "<group>"; wrapsLines = 0; };
+		3B759FFA1C8497C70067E90E /* RotateInDownLeftAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RotateInDownLeftAnimation.h; path = rotating_entrances/RotateInDownLeftAnimation.h; sourceTree = "<group>"; };
+		3B759FFB1C8497C70067E90E /* RotateInDownLeftAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RotateInDownLeftAnimation.m; path = rotating_entrances/RotateInDownLeftAnimation.m; sourceTree = "<group>"; };
+		3B759FFD1C84983B0067E90E /* RotateInDownRightAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RotateInDownRightAnimation.h; path = rotating_entrances/RotateInDownRightAnimation.h; sourceTree = "<group>"; };
+		3B759FFE1C84983B0067E90E /* RotateInDownRightAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RotateInDownRightAnimation.m; path = rotating_entrances/RotateInDownRightAnimation.m; sourceTree = "<group>"; };
+		3B75A0001C8498620067E90E /* RotateInUpLeftAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RotateInUpLeftAnimation.h; path = rotating_entrances/RotateInUpLeftAnimation.h; sourceTree = "<group>"; };
+		3B75A0011C8498620067E90E /* RotateInUpLeftAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RotateInUpLeftAnimation.m; path = rotating_entrances/RotateInUpLeftAnimation.m; sourceTree = "<group>"; wrapsLines = 0; };
+		3B75A0031C8498850067E90E /* RotateInUpRightAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RotateInUpRightAnimation.h; path = rotating_entrances/RotateInUpRightAnimation.h; sourceTree = "<group>"; };
+		3B75A0041C8498850067E90E /* RotateInUpRightAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RotateInUpRightAnimation.m; path = rotating_entrances/RotateInUpRightAnimation.m; sourceTree = "<group>"; };
+		3B75A0061C8498B60067E90E /* RotateOutAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RotateOutAnimation.h; path = rotating_exits/RotateOutAnimation.h; sourceTree = "<group>"; };
+		3B75A0071C8498B60067E90E /* RotateOutAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RotateOutAnimation.m; path = rotating_exits/RotateOutAnimation.m; sourceTree = "<group>"; };
+		3B75A0091C8498E00067E90E /* RotateOutDownLeftAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RotateOutDownLeftAnimation.h; path = rotating_exits/RotateOutDownLeftAnimation.h; sourceTree = "<group>"; };
+		3B75A00A1C8498E00067E90E /* RotateOutDownLeftAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RotateOutDownLeftAnimation.m; path = rotating_exits/RotateOutDownLeftAnimation.m; sourceTree = "<group>"; };
+		3B75A00C1C8499190067E90E /* RotateOutDownRightAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RotateOutDownRightAnimation.h; path = rotating_exits/RotateOutDownRightAnimation.h; sourceTree = "<group>"; };
+		3B75A00D1C8499190067E90E /* RotateOutDownRightAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RotateOutDownRightAnimation.m; path = rotating_exits/RotateOutDownRightAnimation.m; sourceTree = "<group>"; };
+		3B75A00F1C84994D0067E90E /* RotateOutUpLeftAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RotateOutUpLeftAnimation.h; path = sliding_exits/RotateOutUpLeftAnimation.h; sourceTree = "<group>"; };
+		3B75A0101C84994D0067E90E /* RotateOutUpLeftAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RotateOutUpLeftAnimation.m; path = sliding_exits/RotateOutUpLeftAnimation.m; sourceTree = "<group>"; };
+		3B75A0121C8499A80067E90E /* RotateOutUpRightAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RotateOutUpRightAnimation.h; path = rotating_exits/RotateOutUpRightAnimation.h; sourceTree = "<group>"; };
+		3B75A0131C8499A80067E90E /* RotateOutUpRightAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RotateOutUpRightAnimation.m; path = rotating_exits/RotateOutUpRightAnimation.m; sourceTree = "<group>"; };
 		3DB59A1E69EFB1A22B14761A4CB4A504 /* AnimationBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AnimationBuilder.h; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3E9D5499E8487E5E156E248FB9BCAE56 /* FadeInLeftBigAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FadeInLeftBigAnimation.h; sourceTree = "<group>"; };
@@ -403,6 +457,70 @@
 			path = zooming_entrances;
 			sourceTree = "<group>";
 		};
+		3B759FDB1C8476000067E90E /* sliding_exits */ = {
+			isa = PBXGroup;
+			children = (
+				3B759FDD1C8476DF0067E90E /* SlideOutDownAnimation.h */,
+				3B759FDE1C8476DF0067E90E /* SlideOutDownAnimation.m */,
+				3B759FE01C8476FB0067E90E /* SlideOutLeftAnimation.h */,
+				3B759FE11C8476FB0067E90E /* SlideOutLeftAnimation.m */,
+				3B759FE31C84774E0067E90E /* SlideOutRightAnimation.h */,
+				3B759FE41C84774E0067E90E /* SlideOutRightAnimation.m */,
+				3B759FE61C84777F0067E90E /* SlideOutUpAnimation.h */,
+				3B759FE71C84777F0067E90E /* SlideOutUpAnimation.m */,
+			);
+			name = sliding_exits;
+			sourceTree = "<group>";
+		};
+		3B759FDC1C8476040067E90E /* sliding_entrances */ = {
+			isa = PBXGroup;
+			children = (
+				3B759FE91C8477DB0067E90E /* SlideInDownAnimation.h */,
+				3B759FEA1C8477DB0067E90E /* SlideInDownAnimation.m */,
+				3B759FEC1C84782D0067E90E /* SlideInLeftAnimation.h */,
+				3B759FED1C84782D0067E90E /* SlideInLeftAnimation.m */,
+				3B759FEF1C84784E0067E90E /* SlideInRightAnimation.h */,
+				3B759FF01C84784E0067E90E /* SlideInRightAnimation.m */,
+				3B759FF21C8478680067E90E /* SlideInUpAnimation.h */,
+				3B759FF31C8478680067E90E /* SlideInUpAnimation.m */,
+			);
+			name = sliding_entrances;
+			sourceTree = "<group>";
+		};
+		3B759FF51C8496970067E90E /* rotating_entrances */ = {
+			isa = PBXGroup;
+			children = (
+				3B759FF71C84979B0067E90E /* RotateInAnimation.h */,
+				3B759FF81C84979B0067E90E /* RotateInAnimation.m */,
+				3B759FFA1C8497C70067E90E /* RotateInDownLeftAnimation.h */,
+				3B759FFB1C8497C70067E90E /* RotateInDownLeftAnimation.m */,
+				3B759FFD1C84983B0067E90E /* RotateInDownRightAnimation.h */,
+				3B759FFE1C84983B0067E90E /* RotateInDownRightAnimation.m */,
+				3B75A0001C8498620067E90E /* RotateInUpLeftAnimation.h */,
+				3B75A0011C8498620067E90E /* RotateInUpLeftAnimation.m */,
+				3B75A0031C8498850067E90E /* RotateInUpRightAnimation.h */,
+				3B75A0041C8498850067E90E /* RotateInUpRightAnimation.m */,
+			);
+			name = rotating_entrances;
+			sourceTree = "<group>";
+		};
+		3B759FF61C8496BD0067E90E /* rotating_exits */ = {
+			isa = PBXGroup;
+			children = (
+				3B75A0061C8498B60067E90E /* RotateOutAnimation.h */,
+				3B75A0071C8498B60067E90E /* RotateOutAnimation.m */,
+				3B75A0091C8498E00067E90E /* RotateOutDownLeftAnimation.h */,
+				3B75A00A1C8498E00067E90E /* RotateOutDownLeftAnimation.m */,
+				3B75A00C1C8499190067E90E /* RotateOutDownRightAnimation.h */,
+				3B75A00D1C8499190067E90E /* RotateOutDownRightAnimation.m */,
+				3B75A00F1C84994D0067E90E /* RotateOutUpLeftAnimation.h */,
+				3B75A0101C84994D0067E90E /* RotateOutUpLeftAnimation.m */,
+				3B75A0121C8499A80067E90E /* RotateOutUpRightAnimation.h */,
+				3B75A0131C8499A80067E90E /* RotateOutUpRightAnimation.m */,
+			);
+			name = rotating_exits;
+			sourceTree = "<group>";
+		};
 		6E30BD5873C00BC0E56E13872AFBA00F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -506,6 +624,10 @@
 				18AC3D3FDB5CA3C316AFBC77C7A372A9 /* fading_exits */,
 				22147E3528E48C337D241864DB398BAF /* flippers */,
 				0AA8198B5A531FF186BB74FE8C6C944A /* lightspeed */,
+				3B759FF51C8496970067E90E /* rotating_entrances */,
+				3B759FF61C8496BD0067E90E /* rotating_exits */,
+				3B759FDC1C8476040067E90E /* sliding_entrances */,
+				3B759FDB1C8476000067E90E /* sliding_exits */,
 				753745E6C38CB57255B888E612389623 /* specials */,
 				3862BA3D2040ACDC5C49139F14FE9B29 /* zooming_entrances */,
 				17CA14D8EA4E4F547813B6F6C95F33CF /* zooming_exits */,
@@ -818,7 +940,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B75A0111C84994D0067E90E /* RotateOutUpLeftAnimation.m in Sources */,
+				3B759FF11C84784E0067E90E /* SlideInRightAnimation.m in Sources */,
+				3B75A00B1C8498E00067E90E /* RotateOutDownLeftAnimation.m in Sources */,
+				3B759FE21C8476FB0067E90E /* SlideOutLeftAnimation.m in Sources */,
+				3B75A0021C8498620067E90E /* RotateInUpLeftAnimation.m in Sources */,
+				3B759FFC1C8497C70067E90E /* RotateInDownLeftAnimation.m in Sources */,
+				3B759FEE1C84782D0067E90E /* SlideInLeftAnimation.m in Sources */,
 				6D8566613666F73C6A8E4648AB1CB6D6 /* Pods-TTAnimationsExample-dummy.m in Sources */,
+				3B759FE81C84777F0067E90E /* SlideOutUpAnimation.m in Sources */,
+				3B759FF41C8478680067E90E /* SlideInUpAnimation.m in Sources */,
+				3B75A00E1C8499190067E90E /* RotateOutDownRightAnimation.m in Sources */,
+				3B75A0051C8498850067E90E /* RotateInUpRightAnimation.m in Sources */,
+				3B759FE51C84774E0067E90E /* SlideOutRightAnimation.m in Sources */,
+				3B759FDF1C8476DF0067E90E /* SlideOutDownAnimation.m in Sources */,
+				3B759FF91C84979B0067E90E /* RotateInAnimation.m in Sources */,
+				3B759FEB1C8477DB0067E90E /* SlideInDownAnimation.m in Sources */,
+				3B75A0141C8499A80067E90E /* RotateOutUpRightAnimation.m in Sources */,
+				3B75A0081C8498B60067E90E /* RotateOutAnimation.m in Sources */,
+				3B759FFF1C84983B0067E90E /* RotateInDownRightAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

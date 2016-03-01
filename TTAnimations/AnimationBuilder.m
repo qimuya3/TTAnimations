@@ -61,9 +61,29 @@
 #import "LightSpeedInAnimation.h"
 #import "LightSpeedOutAnimation.h"
 
-#import "HingeAnimation.h"
-#import "RollInAnimation.h"
-#import "RollOutAnimation.h"
+#import "RotateInAnimation.h"
+#import "RotateInDownLeftAnimation.h"
+#import "RotateInDownRightAnimation.h"
+#import "RotateInUpLeftAnimation.h"
+#import "RotateInUpRightAnimation.h"
+
+#import "RotateOutAnimation.h"
+#import "RotateOutDownLeftAnimation.h"
+#import "RotateOutDownRightAnimation.h"
+#import "RotateOutUpLeftAnimation.h"
+#import "RotateOutUpRightAnimation.h"
+
+
+#import "SlideOutUpAnimation.h"
+#import "SlideOutLeftAnimation.h"
+#import "SlideOutRightAnimation.h"
+#import "SlideOutDownAnimation.h"
+
+#import "SlideInUpAnimation.h"
+#import "SlideInLeftAnimation.h"
+#import "SlideInRightAnimation.h"
+#import "SlideInDownAnimation.h"
+
 
 #import "ZoomInAnimation.h"
 #import "ZoomInDownAnimation.h"
@@ -76,6 +96,11 @@
 #import "ZoomOutLeftAnimation.h"
 #import "ZoomOutRightAnimation.h"
 #import "ZoomOutUpAnimation.h"
+
+
+#import "HingeAnimation.h"
+#import "RollInAnimation.h"
+#import "RollOutAnimation.h"
 
 @implementation AnimationBuilder{
     AnimationParams  * _animationParams;
@@ -239,6 +264,64 @@
         case lightSpeedOut:
             basicAnimation = [[LightSpeedOutAnimation alloc] initWith:_animationParams view:targetView];
             break;
+            
+        case  RotateIn:
+            basicAnimation = [[RotateInAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case RotateInDownLeft:
+            basicAnimation = [[RotateInDownLeftAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case RotateInDownRight:
+            basicAnimation = [[RotateInDownRightAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case RotateInUpLeft:
+            basicAnimation = [[RotateInUpLeftAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case RotateInUpRight:
+            basicAnimation = [[RotateInUpRightAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case RotateOut:
+            basicAnimation = [[RotateOutAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case RotateOutDownLeft:
+            basicAnimation = [[RotateOutDownLeftAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case RotateOutDownRight:
+             basicAnimation = [[RotateOutDownRightAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case RotateOutUpLeft:
+           basicAnimation = [[RotateOutUpLeftAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case RotateOutUpRight:
+            basicAnimation = [[RotateOutUpRightAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case SlideOutUp:
+            basicAnimation = [[SlideOutUpAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case SlideOutLeft:
+            basicAnimation = [[SlideOutLeftAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case SlideOutRight:
+            basicAnimation = [[SlideOutRightAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case SlideOutDown:
+            basicAnimation = [[SlideOutDownAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+            
+        case SlideInUp:
+            basicAnimation = [[SlideInUpAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case SlideInLeft:
+            basicAnimation = [[SlideInLeftAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case SlideInRight:
+            basicAnimation = [[SlideInRightAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        case SlideInDown:
+            basicAnimation = [[SlideInDownAnimation alloc] initWith:_animationParams view:targetView];
+            break;
+        
+            
         case hinge:
             basicAnimation = [[HingeAnimation alloc] initWith:_animationParams view:targetView];
             break;

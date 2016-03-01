@@ -58,6 +58,29 @@ typedef NS_ENUM(NSUInteger, AnimationType) {
     lightSpeedIn,
     lightSpeedOut,
     
+    RotateIn,
+    RotateInDownLeft,
+    RotateInDownRight,
+    RotateInUpLeft,
+    RotateInUpRight,
+    
+    RotateOut,
+    RotateOutDownLeft,
+    RotateOutDownRight,
+    RotateOutUpLeft,
+    RotateOutUpRight,
+    
+    
+    SlideOutUp,
+    SlideOutLeft,
+    SlideOutRight,
+    SlideOutDown,
+    
+    SlideInUp,
+    SlideInLeft,
+    SlideInRight,
+    SlideInDown,
+    
     hinge,
     rollIn,
     rollOut,

@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animate.css" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOF-v0-Wjx">
-                                <rect key="frame" x="164" y="28" width="272" height="48"/>
+                                <rect key="frame" x="164" y="44" width="272" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="WQJ-zb-zq7"/>
                                     <constraint firstAttribute="width" constant="272" id="kBB-TP-HFB"/>
@@ -40,7 +40,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AOm-9p-aJE" secondAttribute="bottom" id="L5K-DZ-nwm"/>
                             <constraint firstItem="AOm-9p-aJE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XHI-SO-w5E"/>
                             <constraint firstItem="eOF-v0-Wjx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dzf-Ep-v9y"/>
-                            <constraint firstItem="eOF-v0-Wjx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="fyg-Uy-gai"/>
+                            <constraint firstItem="eOF-v0-Wjx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="fyg-Uy-gai"/>
                         </constraints>
                     </view>
                     <connections>
